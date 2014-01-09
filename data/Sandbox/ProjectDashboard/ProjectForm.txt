@@ -1,0 +1,34 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386606399" format="1.1" reprev="1" version="1"}%
+%META:TOPICPARENT{name="WebHome"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| Title | text | 50 | | Project title | M |
+| Description | textarea | 50x20 | | Short description | |
+| Type | select | 1 | P0,P1,P2,P3 | Type of project | |
+| BU | select | 1 | BU40,BU41,BU43,BU42,BU50,BU51,BU60 | Business unit | |
+| Segment | select | 1 | Seg 1, Seg 2,Seg 3 | Segment | |
+| Customer | text | 50 | | Customer (external) | |
+| Projectrequester | textboxlist | 50 mustMatch limit="1" | %USERAUTOCOMPLETE% | Project requester (internal) | |
+| Projectleader | textboxlist | 50 mustMatch | %USERAUTOCOMPLETE% | Project leader | M |
+| Projectteam | textboxlist | 50 mustMatch | %USERAUTOCOMPLETE% | Project team | |
+| Managingdirector | textboxlist | 50 mustMatch limit="1" | %USERAUTOCOMPLETE% | Managing director | |
+| BUmanager | textboxlist | 50 mustMatch limit="1" | %USERAUTOCOMPLETE% | BU manager | |
+| ProjectDashboard.anager | textboxlist | 50 mustMatch limit="1" | %USERAUTOCOMPLETE% | Head of R&D | |
+| Qualitymanager | textboxlist | 50 mustMatch limit="1" | %USERAUTOCOMPLETE% | Quality manager | |
+| Productionlinemanager | textboxlist | 50 mustMatch limit="1" | %USERAUTOCOMPLETE% | Production line manager | |
+| Projectstart | date | 20 | | Projectstart (planed) | |
+| Projectend | date | 20 | | Projectend (planed) | |
+| State | select+values | 1 | %MAKETEXT{"open"}%=open, %MAKETEXT{"closed"}%=closed | Project state | |
+| Stage1Date | date | 20 | | Date of stage 1 | |
+| Stage1Done | checkbox+values | 1 | %MAKETEXT{"done"}%=done | Stage 1 done? | H |
+| Stage2Date | date | 20 | | Date of stage 2 | |
+| Stage2Done | checkbox+values | 1 | %MAKETEXT{"done"}%=done | Stage 2 done? | H |
+| Stage3Date | date | 20 | | Date of stage 3 | |
+| Stage3Done | checkbox+values | 1 | %MAKETEXT{"done"}%=done | Stage 3 done? | H |
+| Stage4Date | date | 20 | | Date of stage 4 | |
+| Stage4Done | checkbox+values | 1 | %MAKETEXT{"done"}%=done | Stage 4 done? | H |
+| Stage5Date | date | 20 | | Date of stage 4 | |
+| Stage5Done | checkbox+values | 1 | %MAKETEXT{"done"}%=done | Stage 5 done? | H |
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1370955324" from="Projects.DokumentenForm" to="Projects.ProjectForm"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

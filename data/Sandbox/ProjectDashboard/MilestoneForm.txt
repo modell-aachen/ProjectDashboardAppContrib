@@ -1,0 +1,9 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386603962" format="1.1" reprev="5" version="2"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| TopicTitle | text | 50 | | Phase title | M |
+| ScheduledDate | date | 30 | | Scheduled date | |
+| State | select+values | 1 | %MAKETEXT{"open"}%=open,%MAKETEXT{"closed"}%=closed,%MAKETEXT{"discarded"}%=discarded | State | |
+
+%META:TOPICMOVED{by="stoffersa" date="1371131421" from="Projects.TaskForm" to="Projects.MilestoneForm"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

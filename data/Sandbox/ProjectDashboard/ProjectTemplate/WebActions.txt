@@ -1,0 +1,15 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1373889335" format="1.1" reprev="3" version="3"}%
+The WebAction topic is the container for all project relating actions.
+
+
+
+
+
+
+
+
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 13.06.2013"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.StoffersAlexander" LASTTIME_DRAFT="13.06.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.StoffersAlexander" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.StoffersAlexander,Main.AdminUser,Main.AdminUser"}%

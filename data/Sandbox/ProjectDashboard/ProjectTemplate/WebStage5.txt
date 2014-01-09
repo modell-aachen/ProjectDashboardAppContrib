@@ -1,0 +1,18 @@
+%META:TOPICINFO{author="AdminUser" comment="" date="1378215219" format="1.1" version="6"}%
+%ACTION{ created="2013-06-11" createdate="2013-06-11" creator="AdminUser" due="2013-06-12" kuerzel="" state="open" task="ToDo1" uid="000065" who="" }% 1st action %ENDACTION% %ACTION{ created="2013-06-11" createdate="2013-06-11" creator="AdminUser" due="2013-06-30" kuerzel="" state="open" task="ToDo2" uid="000066" who="" }% 2nd action %ENDACTION%
+
+%META:FORM{name="ProjectDashboard.StageForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="5_Production series"}%
+%META:FIELD{name="Description" attributes="" title="Description" value="Production series"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="InvestmentEfficiency" attributes="" title="InvestmentEfficiency" value=""}%
+%META:FIELD{name="TimeToMarket" attributes="" title="TimeToMarket" value=""}%
+%META:FIELD{name="SuccessRatio" attributes="" title="SuccessRatio" value=""}%
+%META:FIELD{name="GeneratedTurnover" attributes="" title="GeneratedTurnover" value=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 17.06.2013"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="17.06.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ProjectDashboard.StageView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="ProjectDashboard.StageEdit"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%
+%META:PREFERENCE{name="ALLOWSETVARIABLE" title="ALLOWSETVARIABLE" type="Set" value="WebProjectData"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%

@@ -1,0 +1,22 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386605115" format="1.1" reprev="6" version="2"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Outline data"}%</div>
+<div class="widgetBlockContent">
+<table class="metaDataHead">
+<tr><td width="20%">%MAKETEXT{"Title"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Title"}%</td></tr>
+<tr><td>%MAKETEXT{"Description"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Description"}%</td></tr>
+<tr><td>%MAKETEXT{"BU"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/BU"}%</td></tr>
+<tr><td>%MAKETEXT{"Segment"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Segment"}%</td></tr>
+<tr><td>%MAKETEXT{"Customer"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Customer"}%</td></tr>
+<tr><td>%MAKETEXT{"Project requester"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Projectrequester"}%</td></tr>
+<tr><td>%MAKETEXT{"Project leader"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Projectleader"}%</td></tr>
+<tr><td>%MAKETEXT{"Project team"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Projectteam"}%</td></tr>
+<tr><td>%MAKETEXT{"Start"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Projectstart"}%</td></tr>
+<tr><td>%MAKETEXT{"End"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/Projectend"}%</td></tr>
+<tr><td>%MAKETEXT{"State"}%:</td><td>%MAKETEXT{"%QUERY{"'%BASEWEB%.WebProjectData'/State"}%"}%</td></tr>
+</table>
+---
+%BUTTON{"%MAKETEXT{"Jump to project data"}%" href="%SCRIPTURL{"view"}%/%BASEWEB%/WebProjectData"}%
+</div>
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

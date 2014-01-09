@@ -1,0 +1,10 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386604205" format="1.1" reprev="2" version="2"}%
+%MAKETEXT{"Please describe the Milestone!"}%
+
+%MAKETEXT{"Attach forms, do a lot of stuff..."}%
+
+%STARTSECTION{type="templateonly"}%
+   * Set ALLOWTOPICCHANGE = AdminUser
+%ENDSECTION{type="templateonly"}%   
+
+%META:TOPICMOVED{by="stoffersa" date="1371131366" from="Projects.TaskTemplate" to="Projects.MilestoneTemplate"}%

@@ -1,0 +1,20 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="pending" date="1386606509" format="1.1" reprev="1" version="1"}%
+%TMPL:INCLUDE{"CommentPlugin"}%
+
+%TMPL:DEF{PROMPT:action_projects}%
+
+%JQREQUIRE{"textboxlist"}% %ADDTOZONE{"script" id="ModacSkin::AtpComment" requires="JQUERYPLUGIN::FOSWIKI::PREFERENCES"   text="<script type=\"text/javascript\" src=\"%PUBURLPATH%/%SYSTEMWEB%/ModacSkin/atp_comment.js\"></script>" }% %TABLE{databg="#ffffff" tableborder="0" cellborder="0"}%
+| <label for="action_kuerzel">%MAKETEXT{"Creator"}%</label> | <input class="foswikiInputField" name="action_kuerzel" id="action_kuerzel" type="text" size="50" value="%WIKINAME%" />  |
+| <label for="action_who">%MAKETEXT{"Task to"}%</label> | <input class="foswikiInputField jqTextboxList {limit:1,useHidden:1}" autocomplete="%USERAUTOCOMPLETE%" name="action_who" id="action_who" type="text" size="50" value="%URLPARAM{"who" multiple="on" separator=", "}%"/> |
+| <label for="action_due">%MAKETEXT{"Due date"}%</label> | <input id="action_due" type="text" readonly="readonly" size="10" name="action_due" class="foswikiInputField" value="%URLPARAM{"due"}%"><input type="image" title="Calendar" id="action_due_calendar" alt="Calendar" src="/pub/System/JSCalendarContrib/img.gif" name="calendar"> |
+| <label for="action_task">%MAKETEXT{"Task"}%</label> | <input type="text" %DISABLED% size="50" name="action_task" id="action_task" class="foswikiInputField" onfocus="if(this.value=='%MESSAGE%')this.value=''" onblur="if(this.value=='')this.value='%MESSAGE%'">%MESSAGE% |
+| <label for="action_comment">%MAKETEXT{"Details"}%</label> | <textarea %DISABLED% rows="%rows|3%" cols="%cols|50%" name="action_comment" id="action_comment" class="foswikiInputField" onfocus="if(this.value=='%MESSAGE%')this.value=''" onblur="if(this.value=='')this.value='%MESSAGE%'">%MESSAGE%</textarea> |
+| <label for="action_state">%MAKETEXT{"State"}%</label> | <select class="foswikiInputField" name="action_state" id="action_state" size="1"><option value="open" selected>%MAKETEXT{"open"}%</option><option value="closed">%MAKETEXT{"closed"}%</option><option value="discarded">%MAKETEXT{"discarded"}%</option></select>  |
+| | <input %DISABLED% type="submit" class="foswikiButton" value="%MAKETEXT{"Add task"}%" /><input type="hidden" name="action_context" value="%URLPARAM{"action_context" default="%WEB%.%TOPIC%"}%" /><input type="hidden" name="redirectto" value="%URLPARAM{"action_context" default=""}%" /><input type="hidden" name="comment_templatetopic" value="ProjectDashboard.ProjectsSkinCommentPluginTemplate" /> |
+%TMPL:END%
+
+%TMPL:DEF{OUTPUT:action_projects}%%POS:AFTER%%AC%NOP%TION{who="%URLPARAM{"action_who" encode="quote"}%" due="%URLPARAM{"action_due" encode="off"}%" createdate="%DATE%" kuerzel="%URLPARAM{"action_kuerzel" encode="quote"}%" zeit1="%URLPARAM{"action_zeit" encode="off"}%" state="%URLPARAM{"action_state" encode="quote"}%" context="%URLPARAM{"action_context" encode="quote"}%" task="%URLPARAM{"action_task" encode="quote"}%"}% %URLPARAM{"action_comment" encode="off"}%%ENDACTION% %TMPL:END%
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1371138083" from="Projects.CommentPluginTemplate" to="Projects.ProjectsSkinCommentPluginTemplate"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

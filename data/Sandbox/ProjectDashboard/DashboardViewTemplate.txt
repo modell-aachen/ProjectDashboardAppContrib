@@ -1,0 +1,35 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386603744" format="1.1" reprev="11" version="2"}%
+%META:TOPICPARENT{name="WebHome"}%
+%TMPL:INCLUDE{view}%
+
+%TMPL:DEF{"contentheaderstylewrapper"}%
+<div class="foswikiContentHeader"></div>
+%TMPL:P{"contentheader"}%
+%TMPL:END%
+
+%TMPL:DEF{"contentheader"}%
+---++ %MAKETEXT{"Project"}%: %SOLRSEARCH{"type:topic topic:WebProjectData" web="%WEB%"  format="[[$web.$topic][$field_Title_s]]"}%
+
+<div id="col1" style="float: left; width: 32%;">
+<p>
+%INCLUDE{"%WIDGETWEB%.WidgetData"}%
+%INCLUDE{"%WIDGETWEB%.WidgetStages"}%
+</p>
+</div>
+
+<div id="col2" style="float:left; width: 32%; margin-left: 1%; margin-right: 1%;">
+%INCLUDE{"%WIDGETWEB%.WidgetActions"}%
+</div>
+
+<div id="col3" style="float:left; width: 32%;">
+<p>
+%INCLUDE{"%WIDGETWEB%.WidgetTasks"}%
+%INCLUDE{"%WIDGETWEB%.WidgetChanges"}%
+%INCLUDE{"%WIDGETWEB%.WidgetAttachments"}%
+</p>
+</div>
+
+<div style="clear:left;"></div>
+%TMPL:END%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%

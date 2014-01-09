@@ -1,0 +1,13 @@
+%META:TOPICINFO{author="AdminUser" comment="reprev" date="1373631729" format="1.1" reprev="5" version="13"}%
+
+%STARTSECTION{type="templateonly"}%
+   * Set ALLOWTOPICCHANGE = AdminUser
+%ENDSECTION{type="templateonly"}%
+
+%ACTION{ created="2013-06-11" createdate="2013-06-11" creator="AdminUser" due="2013-06-12" kuerzel="" state="open" task="ToDo1" uid="000065" who="" }% 1st action %ENDACTION% 
+%ACTION{ created="2013-06-11" createdate="2013-06-11" creator="AdminUser" due="2013-06-30" kuerzel="" state="open" task="ToDo2" uid="000066" who="" }% 2nd action %ENDACTION% 
+%META:FORM{name="ProjectDashboard.StageForm"}%
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1371041751" from="Projects.PhaseTemplate" to="Projects.StageTemplate"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ProjectDashboard.StageView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="ProjectDashboard.StageEdit"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%

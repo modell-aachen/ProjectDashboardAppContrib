@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="" date="1386603659" format="1.1" version="2"}%
+%TMPL:INCLUDE{"Transitions"}%
+
+%{"Overload this definition, if you want to influence when the menu is beeing shown."}%
+%TMPL:DEF{"kvpaction"}%%TMPL:P{context="KVPControlled" then="kvptransitions"}%%TMPL:END%
+
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 12.06.2013"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="12.06.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" title="DISPLAYCOMMENTS" type="Set" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" type="Set" value="WikiGuest"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%

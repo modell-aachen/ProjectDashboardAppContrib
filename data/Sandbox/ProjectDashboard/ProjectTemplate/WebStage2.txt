@@ -1,0 +1,15 @@
+%META:TOPICINFO{author="AdminUser" date="1378215158" format="1.1" version="9"}%
+%ACTION{ created="2013-06-11" createdate="2013-06-11" creator="AdminUser" due="2013-06-12" kuerzel="" state="open" task="ToDo1" uid="000065" who="" }% 1st action %ENDACTION% %ACTION{ created="2013-06-11" createdate="2013-06-11" creator="AdminUser" due="2013-06-30" kuerzel="" state="open" task="ToDo2" uid="000066" who="" }% 2nd action %ENDACTION%
+
+%META:FORM{name="ProjectDashboard.StageForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="2_Conception stage"}%
+%META:FIELD{name="Description" attributes="" title="Description" value="Conception stage"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="InvestmentEfficiency" attributes="" title="InvestmentEfficiency" value=""}%
+%META:FIELD{name="TimeToMarket" attributes="" title="TimeToMarket" value=""}%
+%META:FIELD{name="SuccessRatio" attributes="" title="SuccessRatio" value=""}%
+%META:FIELD{name="GeneratedTurnover" attributes="" title="GeneratedTurnover" value=""}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ProjectDashboard.StageView"}%
+%META:PREFERENCE{name="EDIT_TEMPLATE" title="EDIT_TEMPLATE" type="Set" value="ProjectDashboard.StageEdit"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%
+%META:PREFERENCE{name="ALLOWSETVARIABLE" title="ALLOWSETVARIABLE" type="Set" value="WebProjectData"}%

@@ -1,0 +1,63 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604293" format="1.1" reprev="12" version="2"}%
+%TMPL:INCLUDE{edit}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+%TMPL:P{"formstart"}%%TMPL:P{"formtop"}%
+%TMPL:P{"projectmanagement"}%
+%TMPL:P{"projectcontrolling"}%
+%TMPL:P{"topicinfo"}%
+%TMPL:P{"formend"}%
+%TMPL:END%
+
+%TMPL:DEF{"projectmanagement"}%
+%JQREQUIRE{"blockui"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Outline data"}%</div>
+<div class="widgetBlockContent">
+<div style="float:left; margin-right:1%;width:49%">
+<table class="metaDataHead">
+<tr><td width="120px">%MAKETEXT{"Title"}%:</td><td>%RENDERFOREDIT{field="Title" format="$edit"}%</td></tr>
+<tr><td valign="top">%MAKETEXT{"Description"}%:</td><td>%RENDERFOREDIT{field="Description" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"BU"}%:</td><td>%RENDERFOREDIT{field="BU" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Segment"}%:</td><td>%RENDERFOREDIT{field="Segment" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Customer"}%:</td><td>%RENDERFOREDIT{field="Customer" format="$edit"}%</td></tr>
+</table>
+</div>
+<div style="float:left;width:49%">
+<table class="metaDataHead">
+<tr><td width="200px">%MAKETEXT{"Project requester"}%:</td><td>%RENDERFOREDIT{field="Projectrequester" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Project leader"}%:</td><td>%RENDERFOREDIT{field="Projectleader" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Project team"}%:</td><td>%RENDERFOREDIT{field="Projectteam" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Managing director"}%:</td><td>%RENDERFOREDIT{field="Managingdirector" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Business unit manager"}%:</td><td>%RENDERFOREDIT{field="BUmanager" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"ProjectDashboard.manager"}%:</td><td>%RENDERFOREDIT{field="ProjectDashboard.anager" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Production line manager"}%:</td><td>%RENDERFOREDIT{field="Productionlinemanager " format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Quality manager"}%:</td><td>%RENDERFOREDIT{field="Qualitymanager" format="$edit"}%</td></tr>
+</table>
+</div>
+<div style="clear:left"></div>
+</div>
+%TMPL:END%
+%TMPL:DEF{"projectcontrolling"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Project-Controlling"}%</div>
+<div class="widgetBlockContent">
+<p>
+<table class="searchTable">
+<tr><th>%MAKETEXT{"Project start"}%</th><th>%MAKETEXT{"Project end"}%</th><th>%MAKETEXT{"State"}%</th></tr>
+<tr><td>%RENDERFOREDIT{field="Projectstart" format="$edit"}%</td><td>%RENDERFOREDIT{field="Projectend" format="$edit"}%</td><td>%RENDERFOREDIT{field="State" format="$edit"}%</td></tr>
+</table>
+</p>
+<p>
+<table class="searchTable">
+<tr><th>%MAKETEXT{"Stage"}%</th><th>%MAKETEXT{"Description"}%</th><th>%MAKETEXT{"Date"}%</th><th>%MAKETEXT{"Done"}%</th></tr>
+<tr><td>%MAKETEXT{"Stage"}% 1</td><td>%QUERY{"'%WEB%.WebStage1'/TopicTitle"}%</td><td>%RENDERFOREDIT{field="Stage1Date" format="$edit"}%</td><td>%RENDERFOREDIT{field="Stage1Done" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 2</td><td>%QUERY{"'%WEB%.WebStage2'/TopicTitle"}%</td><td>%RENDERFOREDIT{field="Stage2Date" format="$edit"}%</td><td>%RENDERFOREDIT{field="Stage2Done" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 3</td><td>%QUERY{"'%WEB%.WebStage3'/TopicTitle"}%</td><td>%RENDERFOREDIT{field="Stage3Date" format="$edit"}%</td><td>%RENDERFOREDIT{field="Stage3Done" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 4</td><td>%QUERY{"'%WEB%.WebStage4'/TopicTitle"}%</td><td>%RENDERFOREDIT{field="Stage4Date" format="$edit"}%</td><td>%RENDERFOREDIT{field="Stage4Done" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 5</td><td>%QUERY{"'%WEB%.WebStage5'/TopicTitle"}%</td><td>%RENDERFOREDIT{field="Stage5Date" format="$edit"}%</td><td>%RENDERFOREDIT{field="Stage5Done" format="$edit"}%</td></tr>
+</table>
+</p>
+</div>
+%TMPL:END%
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

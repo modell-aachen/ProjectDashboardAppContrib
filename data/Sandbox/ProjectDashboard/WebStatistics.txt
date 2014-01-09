@@ -1,0 +1,9 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386592113" format="1.1" reprev="180" version="180"}%
+%META:TOPICPARENT{name="WebHome"}%
+%IF{
+"istopic '%USERSWEB%.Default%TOPIC%'"
+then="$percentINCLUDE{$quot%USERSWEB%.Default%TOPIC%$quot}$percent"
+else="$percentINCLUDE{$quot%SYSTEMWEB%.Default%TOPIC%$quot}$percent"
+}%
+| <!--statDate--> | <!--statViews--> | <!--statSaves--> | <!--statUploads--> | <!--statTopViews--> | <!--statTopContributors--> |
+| Dec 2013 |  67 |  8 |  0 | &nbsp;38 [[WebHome]]<br />&nbsp;&nbsp;6 [[WebPreferences]]<br />&nbsp;&nbsp;4 [[WebTopicList]]<br />&nbsp;&nbsp;3 [[WidgetStages]]<br />&nbsp;&nbsp;2 [[ProjectForm]]<br />&nbsp;&nbsp;2 [[WebStatistics]]<br />&nbsp;&nbsp;2 [[StageForm]]<br />&nbsp;&nbsp;1 [[DashboardViewTemplate]]<br />&nbsp;&nbsp;1 [[MilestoneViewTemplate]]<br />&nbsp;&nbsp;1 [[CustomSkinWorkflowMailTemplate]]<br />&nbsp;&nbsp;1 [[CustomSkinTransitionsTemplate]] | &nbsp;&nbsp;8 Main.AdminUser |

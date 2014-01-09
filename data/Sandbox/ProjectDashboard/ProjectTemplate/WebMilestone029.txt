@@ -1,0 +1,15 @@
+%META:TOPICINFO{author="AdminUser" comment="reprev" date="1381218588" format="1.1" reprev="1" version="1"}%
+%META:TOPICPARENT{name="WebStage4"}%
+---+ Milestone Description
+
+%SOLRSEARCH{"type:topic topic:%QUERY{"parent.name"}%" web="%WEB%" format="[[$web.$topic][go to approval criteria table]]"}%
+
+%META:FORM{name="ProjectDashboard.MilestoneForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="4-7_Updating the approval criteria table"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="08.10.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 08.10.2013"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%

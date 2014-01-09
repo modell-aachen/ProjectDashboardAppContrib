@@ -1,0 +1,5 @@
+%META:TOPICINFO{author="BaseUserMapping_333" date="1360252355" format="1.1" version="4"}%
+%META:TOPICPARENT{name="WebHome"}%
+<!--
+   * Set VIEW_TEMPLATE = WebCreateNewTopic
+-->

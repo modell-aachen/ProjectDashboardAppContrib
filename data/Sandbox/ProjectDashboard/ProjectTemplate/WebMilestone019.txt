@@ -1,0 +1,16 @@
+%META:TOPICINFO{author="AdminUser" comment="save topic" date="1378216025" format="1.1" reprev="1" version="1"}%
+%META:TOPICPARENT{name="WebStage3"}%
+---+ Milestone Description
+   * dimensional specifications
+   * metallurgical requirements
+   * Documents have to be reöeased and stored in the system!
+
+%META:FORM{name="ProjectDashboard.MilestoneForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="3-6_Creating a first version of quality documents"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="03.09.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 03.09.2013"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%

@@ -1,0 +1,33 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386604527" format="1.1" reprev="8" version="2"}%
+%TMPL:INCLUDE{"edit"}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+%TMPL:P{"formstart"}%%TMPL:P{"formtop"}%
+
+%INCLUDE{"%SYSTEMWEB%/JSCalendarContribInline"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Stage data"}%</div>
+<div class="widgetBlockContent">
+<table class="metaDataHead">
+<tr><td width="120px">Title:</td><td>%RENDERFOREDIT{field="TopicTitle" format="$edit"}%</td></tr>
+<tr><td valign="top">Description:</td><td valign="top">%RENDERFOREDIT{field="Description" format="$edit"}%</td></tr>
+</table>
+</div>
+
+<div class="widgetBlockTitle">%MAKETEXT{"Approval criteria"}%</div>
+<div class="widgetBlockContent">
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Criteria"}%* | *%MAKETEXT{"OK (green)"}%* | *%MAKETEXT{"Maybe OK (yellow)"}%* | *%MAKETEXT{"Not OK (red)"}%* | *%MAKETEXT{"Estimated values"}%* | 
+| %MAKETEXT{"Investment efficiency"}% [€] | &gt;100.000 | 50.000 - 100.000 | &lt;50.000 |%RENDERFOREDIT{field="InvestmentEfficiency" format="$edit"}%|
+| %MAKETEXT{"Time to market"}% | &lt;12 | 12 - 24 | &gt;24 |%RENDERFOREDIT{field="TimeToMarket" format="$edit"}%|
+| %MAKETEXT{"Success ratio"}% [%] | &gt;81 | 64 - 81 | &lt;64 |%RENDERFOREDIT{field="SuccessRatio" format="$edit"}%|
+| %MAKETEXT{"Generated turnover / contribution margin 1 or 2"}% | &gt;35 | 20 - 35 | &lt;20 |%RENDERFOREDIT{field="GeneratedTurnover" format="$edit"}%|
+</div>
+
+%TMPL:P{"topicinfo"}%
+%TMPL:P{"formend"}%
+%TMPL:END%
+
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1371041979" from="Projects.PhaseEditTemplate" to="Projects.StageEditTemplate"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

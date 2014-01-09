@@ -1,0 +1,18 @@
+%META:TOPICINFO{author="AdminUser" comment="reprev" date="1378215370" format="1.1" reprev="1" version="2"}%
+%META:TOPICPARENT{name="WebStage1"}%
+---+ Milestone Description
+
+Please describe the Milestone!
+
+Attach forms, do a lot of stuff...
+
+%META:FORM{name="ProjectDashboard.MilestoneForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="1-6_Verification of the task with respect to compliance with the CT strategy"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:TOPICMOVED{by="AdminUser" date="1374583693" from="ProjectDashboard.ProjectTemplate.WebMilestone006" to="ProjectDashboard.ProjectTemplate.WebMilestone005"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="23.07.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 23.07.2013"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%

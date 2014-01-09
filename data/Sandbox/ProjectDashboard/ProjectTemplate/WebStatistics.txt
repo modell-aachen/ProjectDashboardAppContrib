@@ -1,0 +1,15 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386302733" format="1.1" reprev="120" version="178"}%
+%META:TOPICPARENT{name="WebHome"}%
+%IF{
+"istopic '%USERSWEB%.Default%TOPIC%'"
+then="$percentINCLUDE{$quot%USERSWEB%.Default%TOPIC%$quot}$percent"
+else="$percentINCLUDE{$quot%SYSTEMWEB%.Default%TOPIC%$quot}$percent"
+}%
+| <!--statDate--> | <!--statViews--> | <!--statSaves--> | <!--statUploads--> | <!--statTopViews--> | <!--statTopContributors--> |
+| Dec 2013 |  3 |  1 |  0 | &nbsp;&nbsp;2 [[WebStage3]]<br />&nbsp;&nbsp;1 [[WebTopicList]] | &nbsp;&nbsp;1 Main.AdminUser |
+| Nov 2013 |  3 |  0 |  0 | &nbsp;&nbsp;1 [[WebTopicList]]<br />&nbsp;&nbsp;1 [[WebMilestones]] |  |
+| Oct 2013 |  100 |  42 |  0 | &nbsp;17 [[WebMilestone022]]<br />&nbsp;10 [[WebMilestones]]<br />&nbsp;&nbsp;9 [[WebMilestone034]]<br />&nbsp;&nbsp;8 [[WebMilestone021]]<br />&nbsp;&nbsp;8 [[WebMilestone020]]<br />&nbsp;&nbsp;7 [[WebTopicList]]<br />&nbsp;&nbsp;7 [[WebMilestone029]]<br />&nbsp;&nbsp;4 [[WebMilestone030]]<br />&nbsp;&nbsp;3 [[WebMilestone023]]<br />&nbsp;&nbsp;3 [[WebHome]]<br />&nbsp;&nbsp;3 [[WebMilestone026]] | &nbsp;42 Main.AdminUser |
+| Sep 2013 |  97 |  42 |  0 | &nbsp;&nbsp;8 [[WebMilestone014]]<br />&nbsp;&nbsp;6 [[WebMilestone015]]<br />&nbsp;&nbsp;5 [[WebMilestone017]]<br />&nbsp;&nbsp;4 [[WebMilestone006]]<br />&nbsp;&nbsp;4 [[WebMilestone003]]<br />&nbsp;&nbsp;4 [[WebMilestone002]]<br />&nbsp;&nbsp;4 [[WebMilestone000]]<br />&nbsp;&nbsp;4 [[WebMilestone004]]<br />&nbsp;&nbsp;4 [[WebProjectData]]<br />&nbsp;&nbsp;3 [[WebTopicList]]<br />&nbsp;&nbsp;3 [[WebMilestone022]] | &nbsp;42 Main.AdminUser |
+| Aug 2013 |  12 |  0 |  0 | &nbsp;&nbsp;5 [[WebTopicList]]<br />&nbsp;&nbsp;2 [[WebHome]]<br />&nbsp;&nbsp;1 [[WebStage5]]<br />&nbsp;&nbsp;1 [[WebStage3]]<br />&nbsp;&nbsp;1 [[WebStage1]]<br />&nbsp;&nbsp;1 [[WebStage2]]<br />&nbsp;&nbsp;1 [[WebStage4]] |  |
+| Jul 2013 |  160 |  59 |  0 | &nbsp;24 [[WebStage1]]<br />&nbsp;18 [[WebTopicList]]<br />&nbsp;15 [[WebMilestones]]<br />&nbsp;12 [[WebProjectData]]<br />&nbsp;10 [[WebActions]]<br />&nbsp;&nbsp;6 [[WebIndex]]<br />&nbsp;&nbsp;6 [[WebMilestone002]]<br />&nbsp;&nbsp;6 [[WebStage5]]<br />&nbsp;&nbsp;5 [[WebMilestone010]]<br />&nbsp;&nbsp;5 [[WebStage2]]<br />&nbsp;&nbsp;5 [[WebStage3]] | &nbsp;52 Main.AdminUser<br />&nbsp;&nbsp;5 Main.StoffersAlexander<br />&nbsp;&nbsp;2 Main.AdminUser |
+| Jun 2013 |  145 |  22 |  0 | &nbsp;41 [[WebHome]]<br />&nbsp;40 [[WebStage1]]<br />&nbsp;25 [[WebMilestone000]]<br />&nbsp;10 [[WebMilestones]]<br />&nbsp;&nbsp;6 [[WebMilestone001]]<br />&nbsp;&nbsp;4 [[WebTopicList]]<br />&nbsp;&nbsp;3 [[WebAttachments]]<br />&nbsp;&nbsp;3 [[WebProjectData]]<br />&nbsp;&nbsp;2 [[WebStage4]]<br />&nbsp;&nbsp;2 [[WebStage5]]<br />&nbsp;&nbsp;2 [[WebStage3]] | &nbsp;21 Main.AdminUser<br />&nbsp;&nbsp;1 Main.StoffersAlexander |
