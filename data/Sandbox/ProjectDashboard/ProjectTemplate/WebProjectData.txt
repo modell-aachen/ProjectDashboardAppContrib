@@ -1,0 +1,33 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1371464579" format="1.1" reprev="10" version="18"}%
+
+
+%META:FORM{name="ProjectDashboard.ProjectForm"}%
+%META:FIELD{name="Title" attributes="M" title="Title" value=""}%
+%META:FIELD{name="Description" attributes="" title="Description" value=""}%
+%META:FIELD{name="Type" attributes="" title="Type" value=""}%
+%META:FIELD{name="BU" attributes="" title="BU" value=""}%
+%META:FIELD{name="Segment" attributes="" title="Segment" value=""}%
+%META:FIELD{name="Customer" attributes="" title="Customer" value=""}%
+%META:FIELD{name="Projectrequester" attributes="" title="Projectrequester" value=""}%
+%META:FIELD{name="Projectleader" attributes="M" title="Projectleader" value=""}%
+%META:FIELD{name="Projectteam" attributes="" title="Projectteam" value=""}%
+%META:FIELD{name="Sitemanager" attributes="" title="Sitemanager" value=""}%
+%META:FIELD{name="Generalmanager" attributes="" title="Generalmanager" value=""}%
+%META:FIELD{name="ProjectDashboard.anager" attributes="" title="ProjectDashboard.anager" value=""}%
+%META:FIELD{name="Qualitymanager" attributes="" title="Qualitymanager" value=""}%
+%META:FIELD{name="Projectstart" attributes="" title="Projectstart" value=""}%
+%META:FIELD{name="Projectend" attributes="" title="Projectend" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:FIELD{name="Stage1Date" attributes="" title="Stage1Date" value=""}%
+%META:FIELD{name="Stage2Date" attributes="" title="Stage2Date" value=""}%
+%META:FIELD{name="Stage3Date" attributes="" title="Stage3Date" value=""}%
+%META:FIELD{name="Stage4Date" attributes="" title="Stage4Date" value=""}%
+%META:FIELD{name="Stage5Date" attributes="" title="Stage5Date" value=""}%
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1370967328" from="Projects/ProjectTemplate.ProjectData" to="Projects/ProjectTemplate.WebProjectData"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_APPROVED="Main.AdminUser" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTPROCESSOR_WAITINGFORAPPROVAL="Main.AdminUser" LASTTIME_APPROVED="12.06.2013" LASTTIME_DRAFT="12.06.2013" LASTTIME_WAITINGFORAPPROVAL="12.06.2013" LASTVERSION_APPROVED="15" LASTVERSION_DRAFT="11" LASTVERSION_WAITINGFORAPPROVAL="14" LEAVING_DRAFT="Main.AdminUser" LEAVING_NEW="Main.AdminUser" LEAVING_WAITINGFORAPPROVAL="Main.AdminUser" Remark="" Revision="1" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 12.06.2013<br>WAITINGFORAPPROVAL -- 12.06.2013<br>WAITINGFORAPPROVAL -- 12.06.2013<br>APPROVED -- 12.06.2013"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ProjectDashboard.ProjectView"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" title="DISPLAYCOMMENTS" type="Set" value="on"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value="ProjectDashboard.ProjectWorkflow"}%
+%META:PREFERENCE{name="ALLOWTOPICCOMMENT" title="ALLOWTOPICCOMMENT" type="Set" value="nobody"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%

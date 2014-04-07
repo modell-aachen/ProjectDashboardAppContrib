@@ -1,0 +1,17 @@
+%META:TOPICINFO{author="AdminUser" comment="save topic" date="1381217860" format="1.1" reprev="2" version="2"}%
+%META:TOPICPARENT{name="WebStage3"}%
+---+ Milestone Description
+   * Structure of the MRP model
+   * Ensuring of the delivery dates
+   * Communication of key dates to sales department
+
+%META:FORM{name="ProjectDashboard.MilestoneForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="3-7_Logistics planning"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:TOPICMOVED{by="AdminUser" date="1381217860" from="ProjectDashboard.ProjectTemplate.WebMilestone022" to="ProjectDashboard.ProjectTemplate.WebMilestone020"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="07.10.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 07.10.2013"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%

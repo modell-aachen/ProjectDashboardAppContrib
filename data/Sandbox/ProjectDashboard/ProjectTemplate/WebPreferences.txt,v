@@ -1,0 +1,102 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2013.12.10.07.46.21;	author BaseUserMapping_333;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.12.10.07.46.21;	author BaseUserMapping_999;	state Exp;
+branches;
+next	;
+
+
+desc
+@none
+@
+
+
+1.2
+log
+@save topic
+@
+text
+@%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386661581" format="1.1" reprev="7" version="2"}%
+---+!! <nop>%WEB% Web Preferences
+
+%TOC%
+
+<sticky>
+<div class="%IF{"not context PreferencesPluginEnabled" then="foswikiHidden"}%">
+%EDITPREFERENCES{"%SYSTEMWEB%.DefaultPreferencesForm"}%
+</div>
+</sticky>
+
+---++ Modell Aachen Settings
+ 
+   * Set WORKFLOW = Research.ProjectWorkflow
+   
+   
+
+---++ Appearance
+
+   * Set WEBBGCOLOR = #DDDDDD
+      * <sticky>web-specific background color, <span style='background-color: %WEBBGCOLOR%'> current color </span></sticky>
+
+   * Set SITEMAPLIST = on
+      * set to =off= to hide this web from the [[%SYSTEMWEB%.SiteMap][SiteMap]]
+
+   * Set WEBSUMMARY = 
+      * description what this web is used for
+
+   * Set NOSEARCHALL = 
+      * if set to =on=, this web will be exclude web from a global search
+
+---++ Wiki application settings
+
+   * WebTopicEditTemplate
+      * default template for new topics in this web, if this topic does not exist,  [[%SYSTEMWEB%.WebTopicEditTemplate][site-level default template]] will be used
+
+---++ Access control
+
+Users or groups who are allowed to view, change and rename topics in the <nop>%WEB% web.
+Remember that an empty setting is a valid setting; setting DENYWEBVIEW to nothing means that anyone can view the web.
+
+   * Set DENYWEBVIEW = WikiGuest
+   * Set ALLOWWEBVIEW = 
+   * Set DENYWEBCHANGE = WikiGuest
+   * Set ALLOWWEBCHANGE = 
+   * Set DENYWEBRENAME = 
+   * Set ALLOWWEBRENAME = %USERSWEB%.AdminGroup
+
+Users or groups allowed to change or rename this <nop>%TOPIC% topic: (e.g., [[%USERSWEB%.AdminGroup][AdminGroup]])
+
+   * Set ALLOWTOPICCHANGE = %USERSWEB%.AdminGroup
+   * Set ALLOWTOPICRENAME = %USERSWEB%.AdminGroup
+
+---
+%INCLUDE{"%SYSTEMWEB%.WebPreferencesHelp"}%
+
+
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Local" value="1"}%
+@
+
+
+1.1
+log
+@autosave
+@
+text
+@d1 1
+a1 2
+%META:TOPICINFO{author="BaseUserMapping_999" comment="autosave" date="1386661581" format="1.1" version="1"}%
+
+d42 1
+a42 1
+   * Set DENYWEBVIEW = 
+@

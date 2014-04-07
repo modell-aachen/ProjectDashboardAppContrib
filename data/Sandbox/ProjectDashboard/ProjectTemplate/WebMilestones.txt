@@ -1,0 +1,7 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1371474408" format="1.1" reprev="5" version="5"}%
+
+
+%META:TOPICMOVED{by="stoffersa" date="1371131812" from="Projects/ProjectTemplate.WebTasks" to="Projects/ProjectTemplate.WebMilestones"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" title="DISPLAYCOMMENTS" type="Set" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" type="Set" value="WikiGuest"}%
+%META:PREFERENCE{name="VIEW_TEMPLATE" title="VIEW_TEMPLATE" type="Set" value="ProjectDashboard.CreateNewMilestoneView"}%

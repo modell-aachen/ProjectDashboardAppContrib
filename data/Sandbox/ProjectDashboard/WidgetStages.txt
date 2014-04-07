@@ -1,0 +1,26 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386605141" format="1.1" reprev="10" version="2"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Project-Controlling"}%</div>
+<div class="widgetBlockContent">
+<div id="Signal">
+---++ %MAKETEXT{"Project-Stage state"}%
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Stage"}%* | *%MAKETEXT{"Description"}%* | *%MAKETEXT{"Scheduled date"}%* | *%MAKETEXT{"State"}%* |
+| [[%BASEWEB%.WebStage1][1]] | [[%BASEWEB%.WebStage1][%QUERY{"'%BASEWEB%.WebStage1'/Description"}%]] | %QUERY{"'WebProjectData'/Stage1Date"}% | <div style="display:inline;">%MAKETEXT{"%QUERY{"'WebProjectData'/Stage1Done"}%"}%</div> |
+| [[%BASEWEB%.WebStage2][2]] | [[%BASEWEB%.WebStage2][%QUERY{"'%BASEWEB%.WebStage2'/Description"}%]] | %QUERY{"'WebProjectData'/Stage2Date"}% | <div style="display:inline;">%MAKETEXT{"%QUERY{"'WebProjectData'/Stage2Done"}%"}%</div> |
+| [[%BASEWEB%.WebStage3][3]] | [[%BASEWEB%.WebStage3][%QUERY{"'%BASEWEB%.WebStage3'/Description"}%]] | %QUERY{"'WebProjectData'/Stage3Date"}% | <div style="display:inline;">%MAKETEXT{"%QUERY{"'WebProjectData'/Stage3Done"}%"}%</div> |
+| [[%BASEWEB%.WebStage4][4]] | [[%BASEWEB%.WebStage4][%QUERY{"'%BASEWEB%.WebStage4'/Description"}%]] | %QUERY{"'WebProjectData'/Stage4Date"}% | <div style="display:inline;">%MAKETEXT{"%QUERY{"'WebProjectData'/Stage4Done"}%"}%</div> |
+| [[%BASEWEB%.WebStage5][5]] | [[%BASEWEB%.WebStage5][%QUERY{"'%BASEWEB%.WebStage5'/Description"}%]] | %QUERY{"'WebProjectData'/Stage5Date"}% | <div style="display:inline;">%MAKETEXT{"%QUERY{"'WebProjectData'/Stage5Done"}%"}%</div> |
+%AMPEL{"Signal" WARN="%AMPELWARN{default="3"}%" DATE="%MAKETEXT{"Scheduled date"}%" DST="%MAKETEXT{"State"}%" DONE="%MAKETEXT{"State"}%" COND="done"}%
+</div>
+---++ %MAKETEXT{"Project state"}%
+<table class="metaDataHead">
+<tr><td>%MAKETEXT{"Project state"}%:</td><td>%MAKETEXT{"%GETWORKFLOWROW{"message" web="%BASEWEB%" topic="WebProjectData"}%"}%</td></tr>
+</table>
+---
+%BUTTON{href="%SCRIPTURL{view}%/%BASEWEB%/WebProjectData#Project_Approval_Process" text="%MAKETEXT{"Go to workflow"}%"}%
+%INCLUDE{"%BASEWEB%.WebProjectData" section="approvalprocess" warn="off"}%
+</div>
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1371029210" from="Projects.WidgetPhases" to="Projects.WidgetStages"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

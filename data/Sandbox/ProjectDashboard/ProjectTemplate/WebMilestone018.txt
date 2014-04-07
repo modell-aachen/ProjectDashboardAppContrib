@@ -1,0 +1,16 @@
+%META:TOPICINFO{author="AdminUser" comment="save topic" date="1378216011" format="1.1" reprev="1" version="1"}%
+%META:TOPICPARENT{name="WebStage3"}%
+---+ Milestone Description
+   * final starting plan
+   * number and volume of production orders
+   * ensuring the availability of production tools (pressing tools, new targets, grinding discs)
+
+%META:FORM{name="ProjectDashboard.MilestoneForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="3-5_Definition and scheduling of production capacity"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="03.09.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 03.09.2013"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%

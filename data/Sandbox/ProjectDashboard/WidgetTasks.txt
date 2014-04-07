@@ -1,0 +1,80 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386605151" format="1.1" reprev="16" version="2"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Milestones"}%</div>
+<div class="widgetBlockContent">
+%STARTSECTION{"webstagestwisty"}%
+%TWISTY{ 
+    id="WebStage1" 
+    firststart="hide" 
+    remember="on" 
+	noscript="show"
+    showlink="%QUERY{"'WebStage1'/TopicTitle"}%" 
+    hidelink="%QUERY{"'WebStage1'/TopicTitle"}%"
+	showimgleft="%ICONURLPATH{arrow-right}%"
+	hideimgleft="%ICONURLPATH{arrow-down}%" 
+	linkclass="patternTwistyButton" 
+}%
+   * *[[%BASEWEB%.WebStage1][%QUERY{"'WebStage1'/TopicTitle"}%]]*
+%SOLRSEARCH{"topic:WebMilestone* parent:*WebStage1" web="%BASEWEB%" format="      * [[$web.$topic][$field_TopicTitle_s]]" separator="$n"}%
+%ENDTWISTY%
+%TWISTY{ 
+    id="WebStage2" 
+    firststart="hide" 
+    remember="on" 
+	noscript="show"
+    showlink="%QUERY{"'WebStage2'/TopicTitle"}%" 
+    hidelink="%QUERY{"'WebStage2'/TopicTitle"}%"
+	showimgleft="%ICONURLPATH{arrow-right}%"
+	hideimgleft="%ICONURLPATH{arrow-down}%" 
+	linkclass="patternTwistyButton" 
+}%
+   * *[[%BASEWEB%.WebStage2][%QUERY{"'WebStage2'/TopicTitle"}%]]*
+%SOLRSEARCH{"topic:WebMilestone* parent:*WebStage2" web="%BASEWEB%" format="      * [[$web.$topic][$field_TopicTitle_s]]" separator="$n"}%
+%ENDTWISTY%
+%TWISTY{ 
+    id="WebStage3" 
+    firststart="hide" 
+    remember="on" 
+	noscript="show"
+    showlink="%QUERY{"'WebStage3'/TopicTitle"}%" 
+    hidelink="%QUERY{"'WebStage3'/TopicTitle"}%"
+	showimgleft="%ICONURLPATH{arrow-right}%"
+	hideimgleft="%ICONURLPATH{arrow-down}%" 
+	linkclass="patternTwistyButton" 
+}%
+   * *[[%BASEWEB%.WebStage3][%QUERY{"'WebStage3'/TopicTitle"}%]]*
+%SOLRSEARCH{"topic:WebMilestone* parent:*WebStage3" web="%BASEWEB%" format="      * [[$web.$topic][$field_TopicTitle_s]]" separator="$n"}%
+%ENDTWISTY%
+%TWISTY{ 
+    id="WebStage4" 
+    firststart="hide" 
+    remember="on" 
+	noscript="show"
+    showlink="%QUERY{"'WebStage4'/TopicTitle"}%" 
+    hidelink="%QUERY{"'WebStage4'/TopicTitle"}%"
+	showimgleft="%ICONURLPATH{arrow-right}%"
+	hideimgleft="%ICONURLPATH{arrow-down}%" 
+	linkclass="patternTwistyButton" 
+}%
+   * *[[%BASEWEB%.WebStage4][%QUERY{"'WebStage4'/TopicTitle"}%]]*
+%SOLRSEARCH{"topic:WebMilestone* parent:*WebStage4" web="%BASEWEB%" format="      * [[$web.$topic][$field_TopicTitle_s]]" separator="$n"}%
+%ENDTWISTY%
+%TWISTY{ 
+    id="WebStage5" 
+    firststart="hide" 
+    remember="on" 
+	noscript="show"
+    showlink="%QUERY{"'WebStage5'/TopicTitle"}%" 
+    hidelink="%QUERY{"'WebStage5'/TopicTitle"}%"
+	showimgleft="%ICONURLPATH{arrow-right}%"
+	hideimgleft="%ICONURLPATH{arrow-down}%" 
+	linkclass="patternTwistyButton" 
+}%
+   * *[[%BASEWEB%.WebStage5][%QUERY{"'WebStage5'/TopicTitle"}%]]*
+%SOLRSEARCH{"topic:WebMilestone* parent:*WebStage5" web="%BASEWEB%" format="      * [[$web.$topic][$field_TopicTitle_s]]" separator="$n"}%
+%ENDTWISTY%
+%ENDSECTION{"webstagestwisty"}%
+</div>
+
+%META:TOPICMOVED{by="stoffersa" date="1371126825" from="Projects.WidgetTopics" to="Projects.WidgetTasks"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

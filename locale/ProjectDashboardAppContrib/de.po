@@ -1,0 +1,317 @@
+# German translation for the ProjectDashboard-Application
+# Translators: Modell Aachen
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Foswiki $Id\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2012-11-26 00:09+0200\n"
+"Last-Translator: Bartek \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+msgid "Create new project"
+msgstr "Neues Projekt anlegen"
+
+msgid "Projects overview"
+msgstr "Projekteübersicht"
+
+msgid "Project"
+msgstr "Projekt"
+
+msgid "BU"
+msgstr "BU"
+
+msgid "Project leader"
+msgstr "Projektleiter"
+
+msgid "Project start"
+msgstr "Projektstart"
+
+msgid "Project end"
+msgstr "Projektende"
+
+msgid "Stage"
+msgstr "Stufe"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Segment"
+msgstr "Segment"
+
+msgid "Customer"
+msgstr "Kunde"
+
+msgid "Project requester"
+msgstr "Projektanforderer"
+
+msgid "Project team"
+msgstr "Projektteam"
+
+msgid "State"
+msgstr "Status"
+
+msgid "Jump to project data"
+msgstr "Springe zu Projektdaten"
+
+msgid "End"
+msgstr "Ende"
+
+msgid "Outline data"
+msgstr "Rahmendaten"
+
+msgid "Tasks"
+msgstr "Aufgaben"
+
+msgid "due"
+msgstr "Termin"
+
+msgid "created"
+msgstr "erstellt"
+
+msgid "context"
+msgstr "Kontext"
+
+msgid "Project-Controlling"
+msgstr "Projekt-Controlling"
+
+msgid "Project-Stage state"
+msgstr "Projekt-Stufe Status"
+
+msgid "Scheduled date"
+msgstr "Plandatum"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Project state"
+msgstr "Projektstatus"
+
+msgid "Project is not yet in CIP."
+msgstr "Projekt noch nicht in KVP."
+
+msgid "Project is a draft."
+msgstr "Projekt ist ein Entwurf."
+
+msgid "Project is in stage 1."
+msgstr "Projekt ist in Stufe 1."
+
+msgid "Project is waiting for approval for stage 1."
+msgstr "Projekt wartet auf Freigabe für Stufe 1."
+
+msgid "Project is in stage 2."
+msgstr "Projekt ist in Stufe 2."
+
+msgid "Project is waiting for approval for stage 2."
+msgstr "Projekt wartet auf Freigabe für Stufe 2."
+
+msgid "Project is in stage 3."
+msgstr "Projekt ist in Stufe 3."
+
+msgid "Project is waiting for approval for stage 3."
+msgstr "Projekt wartet auf Freigabe für Stufe 3."
+
+msgid "Project is in stage 4."
+msgstr "Projekt ist in Stufe 4."
+
+msgid "Project is waiting for approval for stage 4."
+msgstr "Projekt wartet auf Freigabe für Stufe 4."
+
+msgid "Project is in stage 5."
+msgstr "Projekt ist in Stufe 5."
+
+msgid "Project is waiting for approval for stage 5."
+msgstr "Projekt wartet auf Freigabe für Stufe 5."
+
+msgid "Project is killed."
+msgstr "Projekt wurde abgebrochen."
+
+msgid "Project is closed."
+msgstr "Projekt ist geschlossen"
+
+msgid "Put under CIP"
+msgstr "In KVP überführen"
+
+msgid "Starting stage 1"
+msgstr "Starte Stufe 1"
+
+msgid "Starting stage 2"
+msgstr "Starte Stufe 2"
+
+msgid "Starting stage 3"
+msgstr "Starte Stufe 3"
+
+msgid "Starting stage 4"
+msgstr "Starte Stufe 4"
+
+msgid "Starting stage 5"
+msgstr "Starte Stufe 5"
+
+msgid "Kill this project"
+msgstr "Dieses Projekt abbrechen"
+
+msgid "Recycle this project to last stage"
+msgstr "Dieses Projekt in vorherige Stufe rückführen"
+
+msgid "Ask for stage 1 signatures"
+msgstr "Um Signaturen für Stufe 1 bitten"
+
+msgid "Ask for stage 2 signatures"
+msgstr "Um Signaturen für Stufe 2 bitten"
+
+msgid "Ask for stage 3 signatures"
+msgstr "Um Signaturen für Stufe 3 bitten"
+
+msgid "Ask for stage 4 signatures"
+msgstr "Um Signaturen für Stufe 4 bitten"
+
+msgid "Ask for stage 5 signatures"
+msgstr "Um Signaturen für Stufe 5 bitten"
+
+msgid "Close this project"
+msgstr "Dieses Projekt schließen"
+
+msgid "Go to workflow"
+msgstr "Gehe zum Workflow"
+
+msgid "Back to dashboard"
+msgstr "Zurück zum Dashboard"
+
+msgid "Stage data"
+msgstr "Stufendaten"
+
+msgid "Milestone"
+msgstr "Meilenstein"
+
+msgid "Milestones"
+msgstr "Meilensteine"
+
+msgid "open milestones"
+msgstr "Offen Meilensteine"
+
+msgid "closed milestones"
+msgstr "Geschlossene Meilensteine"
+
+msgid "discarded milestones"
+msgstr "Verworfene Meilensteine"
+
+msgid "Approval criteria"
+msgstr "Freigabekriterien"
+
+msgid "Investment efficiency"
+msgstr "Investierungseffizienz"
+
+msgid "Time to market"
+msgstr "Produkteinführungszeit"
+
+msgid "Success ratio"
+msgstr "Erfolgsquotient"
+
+msgid "Generated turnover / contribution margin 1 or 2"
+msgstr "Generierte Abnahme / Beitragsdifferenz 1 oder 2"
+
+msgid "Criteria"
+msgstr "Kriterien"
+
+msgid "OK (green)"
+msgstr "OK (grün)"
+
+msgid "Maybe OK (yellow)"
+msgstr "Möglicherweise OK (gelb)"
+
+msgid "Not OK (red)"
+msgstr "Nicht OK (rot)"
+
+msgid "Estimated values"
+msgstr "Erwartungswerte"
+
+msgid "Signatures"
+msgstr "Signaturen"
+
+msgid "open tasks"
+msgstr "offene Aufgaben"
+
+msgid "closed tasks"
+msgstr "geschlossene Aufgaben"
+
+msgid "discarded tasks"
+msgstr "verworfene Aufgaben"
+
+msgid "Add new task"
+msgstr "Neue Aufgabe hinzufügen"
+
+msgid "Project workflow"
+msgstr "Projekt-Workflow"
+
+msgid "Project approval process"
+msgstr "Projekt Freigabeprozess"
+
+msgid "Done"
+msgstr "Erledigt"
+
+msgid "Managing director"
+msgstr "Geschäftsleiter"
+
+msgid "Business unit manager"
+msgstr "Bereichsmanager"
+
+msgid "Research manager"
+msgstr "Forschungsmanager"
+
+msgid "Production line manager"
+msgstr "Produktionsmanager"
+
+msgid "Quality manager"
+msgstr "Qualitätsmanager"
+
+msgid "Kill"
+msgstr "Abbrechen"
+
+msgid "Recycle"
+msgstr "Rückführen"
+
+msgid "Go"
+msgstr "Vorwärts"
+
+msgid "Milestone description"
+msgstr "Meilensteinbeschreibung"
+
+msgid "Create new task (aka milestone)"
+msgstr "Neue Aufgabe erstellen (alias Meilensteine)"
+
+msgid "open"
+msgstr "offen"
+
+msgid "closed"
+msgstr "geschlossen"
+
+msgid "discarded"
+msgstr "verworfen"
+
+msgid "Please describe the Milestone!"
+msgstr "Bitte beschreiben Sie den Meilenstein!"
+
+msgid "Attach forms, do a lot of stuff..."
+msgstr "Hängen Sie Formulare an, machen Sie andere Dinge..."
+
+msgid "Add task"
+msgstr "Aufgabe hinzufügen"
+
+msgid "Task to"
+msgstr "Aufgabe an"
+
+msgid "Due date"
+msgstr "Termin"

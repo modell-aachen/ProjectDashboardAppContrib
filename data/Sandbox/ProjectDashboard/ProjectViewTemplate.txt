@@ -1,0 +1,92 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604341" format="1.1" reprev="16" version="2"}%
+%TMPL:INCLUDE{view}%
+
+%SETVAR{"ALLOWSIGNHERE" topic="WebStage1" type="Set" value="$percntURLPARAM{\"Projectleader\"}$percnt, $percntURLPARAM{\"Projectrequester\"}$percnt, $percntURLPARAM{\"BUmanager\"}$percnt, $percntURLPARAM{\"ProjectDashboard.anager\"}$percnt"}%
+%SETVAR{"ALLOWSIGNHERE" topic="WebStage2" type="Set" value="$percntURLPARAM{\"Projectleader\"}$percnt, $percntURLPARAM{\"Projectrequester\"}$percnt, $percntURLPARAM{\"BUmanager\"}$percnt, $percntURLPARAM{\"ProjectDashboard.anager\"}$percnt"}%
+%SETVAR{"ALLOWSIGNHERE" topic="WebStage3" type="Set" value="$percntURLPARAM{\"Projectleader\"}$percnt, $percntURLPARAM{\"Projectrequester\"}$percnt, $percntURLPARAM{\"BUmanager\"}$percnt, $percntURLPARAM{\"ProjectDashboard.anager\"}$percnt, $percntURLPARAM{\"Productionlinemanager\"}$percnt, $percntURLPARAM{\"Qualitymanager\"}$percnt"}%
+%SETVAR{"ALLOWSIGNHERE" topic="WebStage4" type="Set" value="$percntURLPARAM{\"Projectleader\"}$percnt, $percntURLPARAM{\"Projectrequester\"}$percnt, $percntURLPARAM{\"BUmanager\"}$percnt, $percntURLPARAM{\"ProjectDashboard.anager\"}$percnt, $percntURLPARAM{\"Productionlinemanager\"}$percnt, $percntURLPARAM{\"Qualitymanager\"}$percnt"}%
+%SETVAR{"ALLOWSIGNHERE" topic="WebStage5" type="Set" value="$percntURLPARAM{\"Projectleader\"}$percnt, $percntURLPARAM{\"Projectrequester\"}$percnt, $percntURLPARAM{\"BUmanager\"}$percnt, $percntURLPARAM{\"ProjectDashboard.anager\"}$percnt, $percntURLPARAM{\"Productionlinemanager\"}$percnt, $percntURLPARAM{\"Qualitymanager\"}$percnt"}%
+
+
+%TMPL:DEF{"contentheaderstylewrapper"}%
+<div class="foswikiContentHeader"></div>
+%TMPL:P{"contentheader"}%
+%TMPL:END%
+
+%TMPL:DEF{"contentheader"}%
+%BUTTON{text="%MAKETEXT{"Back to dashboard"}%" href="WebHome"}%%CLEAR%
+%TMPL:P{"projectmanagement"}%
+%TMPL:P{"projectcontrolling"}%
+%TMPL:P{"projectapproval"}%
+%TMPL:END%
+
+%TMPL:DEF{"projectmanagement"}%
+<div class="widgetBlockTitle"> %MAKETEXT{"Outline data"}%</div>
+<div class="widgetBlockContent">
+<div style="float:left; margin-right:1%;width: 49%;">
+<table class="metaDataHead">
+<tr><td width="120px">%MAKETEXT{"Title"}%:</td><td>%RENDERFORDISPLAY{field="Title" format="$value"}%</td></tr>
+<tr><td valign="top">%MAKETEXT{"Description"}%:</td><td valign="top">%RENDERFORDISPLAY{field="Description" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"BU"}%:</td><td>%RENDERFORDISPLAY{field="BU" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Segment"}%:</td><td>%RENDERFORDISPLAY{field="Segment" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Customer"}%:</td><td>%RENDERFORDISPLAY{field="Customer" format="$value"}%</td></tr>
+</table>
+</div>
+<div style="float:left; width:49%;">
+<table class="metaDataHead">
+<tr><td width="200px">%MAKETEXT{"Project requester"}%:</td><td>%RENDERFORDISPLAY{field="Projectrequester" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Project leader"}%:</td><td>%RENDERFORDISPLAY{field="Projectleader" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Project team"}%:</td><td>%RENDERFORDISPLAY{field="Projectteam" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Managing director"}%:</td><td>%RENDERFORDISPLAY{field="Managingdirector" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Business unit manager"}%:</td><td>%RENDERFORDISPLAY{field="BUmanager" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"ProjectDashboard.manager"}%:</td><td>%RENDERFORDISPLAY{field="ProjectDashboard.anager" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Production line manager"}%:</td><td>%RENDERFORDISPLAY{field="Productionlinemanager" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Quality manager"}%:</td><td>%RENDERFORDISPLAY{field="Qualitymanager" format="$value"}%</td></tr>
+</table>
+</div>
+<div style="clear:left;"></div>
+</div>
+%TMPL:END%
+
+%TMPL:DEF{"projectcontrolling"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Project-Controlling"}%</div>
+<div class="widgetBlockContent">
+<p>
+<table class="searchTable">
+<tr><th>%MAKETEXT{"Project start"}%</th><th>%MAKETEXT{"Project end"}%</th><th>%MAKETEXT{"State"}%</th></tr>
+<tr><td>%RENDERFORDISPLAY{field="Projectstart" format="$value"}%</td><td>%RENDERFORDISPLAY{field="Projectend" format="$value"}%</td><td>%RENDERFORDISPLAY{field="State" format="$value"}%</td></tr>
+</table>
+</p>
+<p>
+<table class="searchTable">
+<tr><th>%MAKETEXT{"Stage"}%</th><th>%MAKETEXT{"Description"}%</th><th>%MAKETEXT{"Date"}%</th><th>%MAKETEXT{"Done"}%</th></tr>
+<tr><td>%MAKETEXT{"Stage"}% 1</td><td>%QUERY{"'%WEB%.WebStage1'/TopicTitle"}%</td><td>%RENDERFORDISPLAY{field="Stage1Date" format="$value"}%</td><td><input type="checkbox" %IF{"'%TOPIC%'/Stage1Done=~'done'" then="checked=$quotchecked$quot"}% DISABLED></td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 2</td><td>%QUERY{"'%WEB%.WebStage2'/TopicTitle"}%</td><td>%RENDERFORDISPLAY{field="Stage2Date" format="$value"}%</td><td><input type="checkbox" %IF{"'%TOPIC%'/Stage2Done=~'done'" then="checked=$quotchecked$quot"}% DISABLED></td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 3</td><td>%QUERY{"'%WEB%.WebStage3'/TopicTitle"}%</td><td>%RENDERFORDISPLAY{field="Stage3Date" format="$value"}%</td><td><input type="checkbox" %IF{"'%TOPIC%'/Stage3Done=~'done'" then="checked=$quotchecked$quot"}% DISABLED></td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 4</td><td>%QUERY{"'%WEB%.WebStage4'/TopicTitle"}%</td><td>%RENDERFORDISPLAY{field="Stage4Date" format="$value"}%</td><td><input type="checkbox" %IF{"'%TOPIC%'/Stage4Done=~'done'" then="checked=$quotchecked$quot"}% DISABLED></td></tr>
+<tr><td>%MAKETEXT{"Stage"}% 5</td><td>%QUERY{"'%WEB%.WebStage5'/TopicTitle"}%</td><td>%RENDERFORDISPLAY{field="Stage5Date" format="$value"}%</td><td><input type="checkbox" %IF{"'%TOPIC%'/Stage5Done=~'done'" then="checked=$quotchecked$quot"}% DISABLED></td></tr>
+</table>
+</p>
+</div>
+%TMPL:END%
+
+%TMPL:DEF{"projectapproval"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Project approval process"}%</div>
+<div class="widgetBlockContent">
+%STARTSECTION{"approvalprocess"}%
+<div class="modacKVPtable">
+| *%MAKETEXT{"Project workflow"}%* ||
+| %MAKETEXT{"State"}% | %MAKETEXT{"%GETWORKFLOWROW{"message"}%"}% |
+| %MAKETEXT{"Next step"}% | %WORKFLOWTRANSITION% |
+| %MAKETEXT{"Last editing person"}% | %REVINFO{format="$username"}% |
+</div>
+%ENDSECTION{"approvalprocess"}%
+</div>
+%TMPL:END%
+
+
+%TMPL:DEF{"kvpbottom"}%
+%TMPL:END%
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

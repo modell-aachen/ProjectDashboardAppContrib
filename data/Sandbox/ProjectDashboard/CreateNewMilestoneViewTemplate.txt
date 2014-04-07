@@ -1,0 +1,31 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386603638" format="1.1" reprev="1" version="3"}%
+%TMPL:INCLUDE{"view"}%
+
+%TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
+
+%INCLUDE{"%SYSTEMWEB%/JSCalendarContribInline"}%
+
+---+ %MAKETEXT{"Create new task (aka milestone)"}%
+<form action='%SCRIPTURLPATH{"edit"}%/%WEB%/'> 
+  <input type="hidden" name="onlywikiname" value="on" />
+  <input type="hidden" name="t" value="%GMTIME{"$epoch"}%" />
+  <div class="foswikiFormSteps">
+    <div class="foswikiFormStep">
+      <h3 >%MAKETEXT{"Topic name"}% </h3>
+<table cellpadding="0" cellspacing="10">
+<tr><td width="150px"><input class="foswikiInputField" type="hidden" name="topic" id="topic" size="32" value="WebMilestoneAUTOINC000" />&nbsp;
+      <input class="foswikiInputField" type="hidden" name="templatetopic" id="templatetopic" size="32" value="ProjectDashboard.MilestoneTemplate" />&nbsp;
+      <input class="foswikiInputField" type="hidden" name="formtemplate" id="formtemplate" size="32" value="ProjectDashboard.MilestoneForm" />&nbsp;</td><td width="230px"></td><td></td></tr>
+<tr><td>Relating WebStage:</td><td><select name="topicparent" id="topicparent"><option>WebStage1</option><option>WebStage2</option><option>WebStage3</option><option>WebStage4</option><option>WebStage5</option></select></td><td></td></tr>
+<tr><td>Milestone Title:</td><td><input class="foswikiInputField" type="text" name="TopicTitle" id="TopicTitle" size="32" value="Please fill out!" /></td><td><i>%MAKETEXT{"Use a topic name in %SYSTEMWEB%.WikiNotation"}%</i></td></tr>
+<tr><td>%BUTTON{"%MAKETEXT{"Create topic"}%" type="submit"}%</td><td>%CLEAR%</td></tr>
+</table>
+   </div>
+  </div>
+</form>
+
+%TMPL:END%
+
+
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%

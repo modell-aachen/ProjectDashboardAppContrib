@@ -1,0 +1,32 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1389259981" format="1.1" reprev="13" version="2"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Create new project"}%</div>
+<div class="widgetBlockContent">
+%BUTTON{"%MAKETEXT{"Create new project"}%" href="%SCRIPTURL{rest}%/WebAutoIncPlugin/create?newweb=%WIDGETWEB%%2fProjectAUTOINC0000&baseweb=%WIDGETWEB%.ProjectTemplate&nosearchall=off&redirectto=newweb"}%
+</div>
+<div class="widgetBlockTitle">%MAKETEXT{"Projects overview"}%</div>
+<div class="widgetBlockContent">
+<div id="SignalStage1">
+<div id="SignalStage2">
+<div id="SignalStage3">
+<div id="SignalStage4">
+<div id="SignalStage5">
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Project"}%* | *%MAKETEXT{"Description"}%* | *%MAKETEXT{"BU"}%* | *%MAKETEXT{"Project leader"}%* | *%MAKETEXT{"Project start"}%* | *%MAKETEXT{"Project end"}%* | *%MAKETEXT{"Stage"}% 1* | *%MAKETEXT{"Stage"}% 2* | *%MAKETEXT{"Stage"}% 3* | *%MAKETEXT{"Stage"}% 4* | *%MAKETEXT{"Stage"}% 5* |
+%SOLRSEARCH{
+ "form:ProjectDashboard.ProjectForm field_State_s:open -web:*ProjectTemplate*" 
+header="" 
+format="| $percntIF{\"'$percntQUERY{\"'$web.WebProjectData'/Title\"}$percnt'=''\" then=\"[[$web.WebHome][$percntSUBST{text=\"$web\" pattern=\"ProjectDashboard.\" format=\"\"}$percnt]]\" else=\"[[$web.WebHome][$percntQUERY{\"'$web.WebProjectData'/Title\"}$percnt]]\"}$percnt | $percentIF{\"'$field_Description_s'=~'^\$'\" then=\"\" else=\"$field_Description_s\"}$percent | $percentIF{\"'$field_BU_s'=~'^\$'\" then=\"\" else=\"$field_BU_s\"}$percent | $percentIF{\"'$field_Projectleader_lst'=~'^\$'\" then=\"\" else=\"$field_Projectleader_lst\"}$percnt | $percentIF{\"'$field_Projectstart_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Projectstart_dt\"}$percnt | $percentIF{\"'$field_Projectend_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Projectend_dt\"}$percnt | $percentIF{\"'$field_Stage1Date_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Stage1Date_dt\"}$percent $percentIF{\"'$field_Stage1Done_lst'=~'^\$'\" then=\"\" else=\"$field_Stage1Done_lst\"}$percent | $percentIF{\"'$field_Stage2Date_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Stage2Date_dt\"}$percent $percentIF{\"'$field_Stage2Done_lst'=~'^\$'\" then=\"\" else=\"$field_Stage2Done_lst\"}$percent | $percentIF{\"'$field_Stage3Date_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Stage3Date_dt\"}$percent $percentIF{\"'$field_Stage3Done_lst'=~'^\$'\" then=\"\" else=\"$field_Stage3Done_lst\"}$percent | $percentIF{\"'$field_Stage4Date_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Stage4Date_dt\"}$percent $percentIF{\"'$field_Stage4Done_lst'=~'^\$'\" then=\"\" else=\"$field_Stage4Done_lst\"}$percent | $percentIF{\"'$field_Stage5Date_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_Stage5Date_dt\"}$percent $percentIF{\"'$field_Stage5Done_lst'=~'^\$'\" then=\"\" else=\"$field_Stage5Done_lst\"}$percent |$n" 
+footer="" 
+sort="topic asc" 
+rows="99999"
+}%
+%AMPEL{"SignalStage1" WARN="%AMPELWARN{default="10"}%" DATE="%MAKETEXT{"Stage"}% 1" DST="%MAKETEXT{"Stage"}% 1" DONE="%MAKETEXT{"Stage"}% 1" COND="done"}%
+%AMPEL{"SignalStage2" WARN="%AMPELWARN{default="10"}%" DATE="%MAKETEXT{"Stage"}% 2" DST="%MAKETEXT{"Stage"}% 2" DONE="%MAKETEXT{"Stage"}% 2" COND="done"}%
+%AMPEL{"SignalStage3" WARN="%AMPELWARN{default="10"}%" DATE="%MAKETEXT{"Stage"}% 3" DST="%MAKETEXT{"Stage"}% 3" DONE="%MAKETEXT{"Stage"}% 3" COND="done"}%
+%AMPEL{"SignalStage4" WARN="%AMPELWARN{default="10"}%" DATE="%MAKETEXT{"Stage"}% 4" DST="%MAKETEXT{"Stage"}% 4" DONE="%MAKETEXT{"Stage"}% 4" COND="done"}%
+%AMPEL{"SignalStage5" WARN="%AMPELWARN{default="10"}%" DATE="%MAKETEXT{"Stage"}% 5" DST="%MAKETEXT{"Stage"}% 5" DONE="%MAKETEXT{"Stage"}% 5" COND="done"}%
+</div></div></div></div></div>
+</div>
+
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%

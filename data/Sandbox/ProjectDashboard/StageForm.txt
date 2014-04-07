@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386604537" format="1.1" reprev="6" version="2"}%
+| *Name* | *Type* | *Size* | *Values* | *Tooltip message* | *Attributes* |
+| TopicTitle | text | 50 | | Phase title | M |
+| Description | textarea | 50x10 | | Description | |
+| ScheduledDate | date | 30 | | Scheduled date | |
+| InvestmentEfficiency | text | | | Investment efficiency | |
+| TimeToMarket | text | | | Time to market | |
+| SuccessRatio | text | | | Success ratio | |
+| GeneratedTurnover | text | | | Generated turnover / contribution margin 1 or 2 | |
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

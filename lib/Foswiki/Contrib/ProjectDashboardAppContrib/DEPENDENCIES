@@ -1,0 +1,7 @@
+Foswiki::Plugins::ActionTrackerPlugin,>=2.4.9.14,perl,Required
+Foswiki::Plugins::SetVariablePlugin,>=2.31.1,perl,Required
+Foswiki::Plugins::JQTableSorterPlugin,>=1.0.5,perl,Required
+Foswiki::Plugins::SignHerePlugin,>=0.1.0,perl,Required
+Foswiki::Plugins::AttachmentListPlugin,>=1.5.0,perl Required
+Foswiki::Plugins::WebAutoIncPlugin,>=0,perl Required
+Foswiki::Plugins::AmpelPlugin,>=1.2.2,perl Required

@@ -1,0 +1,105 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604669" format="1.1" reprev="22" version="2"}%
+%TMPL:INCLUDE{"view"}%
+
+%TMPL:DEF{"content"}%
+%TMPL:P{"simpleheader"}% 
+%BUTTON{text="%MAKETEXT{"Back to dashboard"}%" href="WebHome"}%
+%CLEAR%
+---+ %MAKETEXT{"Project"}%: %SOLRSEARCH{"type:topic topic:WebProjectData" web="%WEB%"  format="[[$web.$topic][$field_Title_s]]"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Stage"}%: %RENDERFORDISPLAY{field="TopicTitle" format="$value"}%</div>
+<div class="widgetBlockContent">
+%INCLUDE{"%WIDGETWEB%.WidgetTasks" section="webstagestwisty"}%
+</div>
+<div class="widgetBlockTitle">%MAKETEXT{"Stage data"}%</div>
+<div class="widgetBlockContent">
+<table class="metaDataHead">
+<tr><td width="150px;">%MAKETEXT{"Title"}%:</td><td>%RENDERFORDISPLAY{field="TopicTitle" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Description"}%:</td><td>%RENDERFORDISPLAY{field="Description" format="$value"}%</td></tr>
+<tr><td>%MAKETEXT{"Scheduled date"}%:</td><td>%QUERY{"'%BASEWEB%.WebProjectData'/%SUBST{text="%BASETOPIC%" pattern="Web" format=""}%Date"}%</td></tr>
+</table>
+</div>
+
+<div class="widgetBlockTitle">%MAKETEXT{"Milestones"}%</div>
+<div class="widgetBlockContent">
+%TABPANE{select="%URLPARAM{"tab"}%" class="simple"}%
+%TAB{"%MAKETEXT{"open milestones"}%"}%
+<div id="SignalOpenMS">
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Name"}%* | *%MAKETEXT{"Scheduled date"}%* | *%MAKETEXT{"Signal"}%* |
+%SOLRSEARCH{
+"topic:WebMilestone* parent:*%BASETOPIC% field_State_s:open" 
+web="%BASEWEB%" 
+format="| [[$web.$topic][$field_TopicTitle_s]] | $percntIF{\"'$field_ScheduledDate_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_ScheduledDate_dt\"}$percnt  | <div style=\"display:none;\">$field_State_s</div> | $n" 
+rows="99999" 
+sort="topic asc"
+}%
+</div>
+%ENDTAB%
+%TAB{"%MAKETEXT{"closed milestones"}%"}%
+<div id="SignalClosedMS">
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Name"}%* | *%MAKETEXT{"Scheduled date"}%* | *%MAKETEXT{"Signal"}%* |
+%SOLRSEARCH{
+"topic:WebMilestone* parent:*%BASETOPIC% field_State_s:closed" 
+web="%BASEWEB%" 
+format="| [[$web.$topic][$field_TopicTitle_s]] | $percntIF{\"'$field_ScheduledDate_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_ScheduledDate_dt\"}$percnt | <div style=\"display:none;\">$field_State_s</div> | $n" 
+rows="99999" 
+sort="topic asc"
+}%
+</div>
+%ENDTAB% %TAB{"%MAKETEXT{"discarded milestones"}%"}%
+<div id="SignalDiscardedMS">
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Name"}%* | *%MAKETEXT{"Scheduled date"}%* | *%MAKETEXT{"Signal"}%* |
+%SOLRSEARCH{
+"topic:WebMilestone* parent:*%BASETOPIC% field_State_s:discarded" 
+web="%BASEWEB%" 
+format="| [[$web.$topic][$field_TopicTitle_s]] | $percntIF{\"'$field_ScheduledDate_dt'=~'01 Jan 1970'\" then=\"\" else=\"$field_ScheduledDate_dt\"}$percnt | <div style=\"display:none;\">$field_State_s</div> | $n" 
+rows="99999" 
+sort="topic asc" 
+}%
+%ENDTAB% 
+%AMPEL{"SignalOpenMS" WARN="7" DATE="%MAKETEXT{"Scheduled date"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"Signal"}%" COND="closed" LIVEQUERY="1"}% 
+%AMPEL{"SignalClosedMS" WARN="7" DATE="%MAKETEXT{"Scheduled date"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"Signal"}%" COND="closed" LIVEQUERY="1"}% 
+%AMPEL{"SignalDiscardedMS" WARN="7" DATE="%MAKETEXT{"Scheduled date"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"Signal"}%" COND="closed" LIVEQUERY="1"}%
+%ENDTABPANE%
+
+</div>
+</div>
+
+<div class="widgetBlockTitle">%MAKETEXT{"Approval criteria"}%</div>
+<div class="widgetBlockContent">
+<div style="display: none">
+   * Set RED1 = $IF($EMPTY($T(R2:C5)) == 0, $IF($T(R2:C5) <= 100000, $IF($T(R2:C5) >= 50000,%SIGNALYELLOW%,%SIGNALRED%), ), )
+   * Set GREEN1 = $IF($EMPTY($T(R2:C5)) == 0, $IF($T(R2:C5) > 100000,%SIGNALGREEN%, ),)
+
+   * Set RED2 = $IF($EMPTY($T(R3:C5)) == 0, $IF($T(R3:C5) >= 12, $IF($T(R3:C5) <= 24,%SIGNALYELLOW%,%SIGNALRED%), ), )
+   * Set GREEN2 = $IF($EMPTY($T(R3:C5)) == 0, $IF($T(R3:C5) < 12,%SIGNALGREEN%, ),)
+
+   * Set RED3 = $IF($EMPTY($T(R4:C5)) == 0, $IF($T(R4:C5) <= 81, $IF($T(R4:C5) >= 64,%SIGNALYELLOW%,%SIGNALRED%), ), )
+   * Set GREEN3 = $IF($EMPTY($T(R4:C5)) == 0, $IF($T(R4:C5) > 81,%SIGNALGREEN%, ),)
+
+   * Set RED4 = $IF($EMPTY($T(R5:C5)) == 0, $IF($T(R5:C5) <= 35, $IF($T(R5:C5) >= 20,%SIGNALYELLOW%,%SIGNALRED%), ), )
+   * Set GREEN4 = $IF($EMPTY($T(R5:C5)) == 0, $IF($T(R5:C5) > 35,%SIGNALGREEN%, ),)
+
+In der Tabelle sind jeweils beide Formeln nacheinander aufgelsitet (zuerst green, dann red).
+</div>
+%TABLE{%TABLETHEMEPARAM%}%
+| *%MAKETEXT{"Criteria"}%* | *%MAKETEXT{"OK (green)"}%* | *%MAKETEXT{"Maybe OK (yellow)"}%* | *%MAKETEXT{"Not OK (red)"}%* | *%MAKETEXT{"Estimated values"}%* | *%MAKETEXT{"Signal"}%* |
+| %MAKETEXT{"Investment efficiency"}% [€] | &gt;100.000 | 50.000 - 100.000 | &lt;50.000 | %RENDERFORDISPLAY{field="InvestmentEfficiency" format="$value"}% | %CALC{$IF($EMPTY($T(R2:C5)) == 0, $IF($T(R2:C5) > 100000,%SIGNALGREEN%, ),)}%%CALC{$IF($EMPTY($T(R2:C5)) == 0, $IF($T(R2:C5) <= 100000, $IF($T(R2:C5) >= 50000,%SIGNALYELLOW%,%SIGNALRED%), ), )}% |
+| %MAKETEXT{"Time to market"}% | &lt;12 | 12 - 24 | &gt;24 | %RENDERFORDISPLAY{field="TimeToMarket" format="$value"}% |%CALC{$IF($EMPTY($T(R3:C5)) == 0, $IF($T(R3:C5) < 12,%SIGNALGREEN%, ),)}%%CALC{$IF($EMPTY($T(R3:C5)) == 0, $IF($T(R3:C5) >= 12, $IF($T(R3:C5) <= 24,%SIGNALYELLOW%,%SIGNALRED%), ), )}% |
+| %MAKETEXT{"Success ratio"}% [%] | &gt;81 | 64 - 81 | &lt;64 | %RENDERFORDISPLAY{field="SuccessRatio" format="$value"}% |%CALC{ $IF($EMPTY($T(R4:C5)) == 0, $IF($T(R4:C5) > 81,%SIGNALGREEN%, ),)}%%CALC{$IF($EMPTY($T(R4:C5)) == 0, $IF($T(R4:C5) <= 81, $IF($T(R4:C5) >= 64,%SIGNALYELLOW%,%SIGNALRED%), ), )}%  |
+| %MAKETEXT{"Generated turnover / contribution margin 1 or 2"}% | &gt;35 | 20 - 35 | &lt;20 | %RENDERFORDISPLAY{field="GeneratedTurnover" format="$value"}% |%CALC{$IF($EMPTY($T(R5:C5)) == 0, $IF($T(R5:C5) > 35,%SIGNALGREEN%, ),)}%%CALC{$IF($EMPTY($T(R5:C5)) == 0, $IF($T(R5:C5) <= 35, $IF($T(R5:C5) >= 20,%SIGNALYELLOW%,%SIGNALRED%), ), )}% |
+</div>
+
+
+<div class="widgetBlockTitle">%MAKETEXT{"Signatures"}%</div>
+<div class="widgetBlockContent">
+%SIGNATURES%
+</div>
+
+%TMPL:END%
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1371041906" from="Projects.PhaseViewTemplate" to="Projects.StageViewTemplate"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

@@ -1,0 +1,63 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604243" format="1.1" reprev="14" version="2"}%
+%TMPL:INCLUDE{view}%
+%TMPL:DEF{"contentheaderstylewrapper"}%
+<div class="foswikiContentHeader"></div>
+%TMPL:P{"contentheader"}%
+%TMPL:END%
+
+%TMPL:DEF{"contentheader"}%
+%BUTTON{text="%MAKETEXT{"Back to dashboard"}%" href="WebHome"}%%CLEAR%
+
+---++ %MAKETEXT{"Project"}%: %SOLRSEARCH{"type:topic topic:WebProjectData" web="%WEB%"  format="[[$web.$topic][$field_Title_s]]"}% Stage: %SOLRSEARCH{"type:topic topic:%QUERY{"parent.name"}%" web="%WEB%"  format="[[$web.$topic][$field_TopicTitle_s]]"}% 
+<div class="widgetBlockTitle">%MAKETEXT{"Milestone"}%: %RENDERFORDISPLAY{field="TopicTitle" format="$value"}%</div>
+<div class="widgetBlockContent">
+%INCLUDE{"%WIDGETWEB%.WidgetTasks" section="webstagestwisty"}%
+</div>
+%TMPL:P{"actions"}%
+%TMPL:P{"milestonesofsamestage"}%
+%TMPL:END%
+
+%TMPL:DEF{"newaction"}%
+%JQREQUIRE{"textboxlist"}%
+<div id="action_add">
+%BUTTON{text="%MAKETEXT{"Add new task"}%" onclick="$('#stageactiondlg').dialog('option', 'minWidth', 520).dialog('option', 'title', 'Add task (action)').dialog('open').html('<span id=&quot;jqAjaxLoader&quot;>&nbsp;</span>').load(foswiki.getPreference('SCRIPTURLPATH')+'/view/ProjectDashboard.WidgetHelperActions?target='+foswiki.getPreference('WEB')+'/WebActions;action_context='+foswiki.getPreference('WEB')+'.'+foswiki.getPreference('TOPIC')+';skin=projects,text');"}%%CLEAR%
+</div><div id="stageactiondlg" class="jqUIDialog"></div>
+%TMPL:END%
+
+%TMPL:DEF{"actions"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Tasks"}%</div>
+<div class="widgetBlockContent">
+%TMPL:P{"newaction"}%
+<p>
+%TABPANE{select="%URLPARAM{"tab"}%" class="simple"}%
+%TAB{"%MAKETEXT{"open tasks"}%"}%
+<div id="SignalOpenTasks">%ACTIONSEARCH{web="%WEB%" sort="$due" topic="WebActions" context="%WEB%.%TOPIC%" state="open" sort="$createdate,$who,$due" jqsortable="1" jqsortopts="widgets: ['zebra'], sortList: [[0,1],[0,1]], headers: { 0: { sorter: 'qwikiDate' }, 5: { sorter: 'qwikiDate' }, 6: { sorter: 'qwikiDate' }, 7: { sorter: false }, 8: { sorter: false }, 9: { sorter: false }}"}%</div>
+%ENDTAB%
+%TAB{"%MAKETEXT{"closed tasks"}%"}%
+<div id="SignalClosedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebActions" context="%WEB%.%TOPIC%" state="closed" sort="$createdate,$who,$due"}%</div>
+%ENDTAB%
+%TAB{"%MAKETEXT{"discarded tasks"}%"}%
+<div id="SignalDiscardedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebActions" context="%WEB%.%TOPIC%" state="discarded" sort="$createdate,$who,$due"}%</div>
+%ENDTAB%
+%AMPEL{"SignalOpenTasks" WARN="7" DATE="%MAKETEXT{"Due"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"State"}%" COND="closed"}%
+%AMPEL{"SignalClosedTasks" WARN="7" DATE="%MAKETEXT{"Due"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"State"}%" COND="closed"}%
+%AMPEL{"SignalDiscardedTasks" WARN="7" DATE="%MAKETEXT{"Due"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"State"}%" COND="closed"}%
+%ENDTABPANE%
+</p>
+</div>
+<div class="widgetBlockTitle">%MAKETEXT{"Milestone description"}%</div>
+<div class="widgetBlockContent">
+%TEXT%
+</div>
+%TMPL:END%
+%TMPL:DEF{"content"}%
+%TMPL:END%
+
+%TMPL:DEF{"milestonesofsamestage"}%
+%TMPL:END%
+
+	
+
+%META:TOPICMOVED{by="stoffersa" date="1371131495" from="Projects.TaskViewTemplate" to="Projects.MilestoneViewTemplate"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%

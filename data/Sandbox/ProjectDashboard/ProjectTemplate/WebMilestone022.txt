@@ -1,0 +1,16 @@
+%META:TOPICINFO{author="AdminUser" comment="reprev" date="1381218624" format="1.1" reprev="3" version="3"}%
+%META:TOPICPARENT{name="WebStage3"}%
+---+ Milestone Description
+
+%SOLRSEARCH{"type:topic topic:%QUERY{"parent.name"}%" web="%WEB%" format="[[$web.$topic][go to approval criteria table]]"}%
+
+%META:FORM{name="ProjectDashboard.MilestoneForm"}%
+%META:FIELD{name="TopicTitle" attributes="M" title="TopicTitle" value="3-9_Completing the approval criteria table"}%
+%META:FIELD{name="ScheduledDate" attributes="" title="ScheduledDate" value=""}%
+%META:FIELD{name="State" attributes="" title="State" value="open"}%
+%META:TOPICMOVED{by="AdminUser" date="1381217877" from="ProjectDashboard.ProjectTemplate.WebMilestone021" to="ProjectDashboard.ProjectTemplate.WebMilestone022"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.AdminUser" LASTTIME_DRAFT="03.09.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.AdminUser" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 03.09.2013"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.AdminUser"}%

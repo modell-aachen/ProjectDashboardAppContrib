@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1371037654" format="1.1" reprev="2" version="4"}%
+%META:TOPICPARENT{name="WebTopicList"}%
+---++ Files in this topic
+%ATTACHMENTLIST{
+topic="%TOPIC%"
+web="%BASEWEB%"
+format="   * [[$fileUrl][$fileName]]"
+separator="$n"
+}%
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1370967443" from="Projects/ProjectTemplate.Attachments" to="Projects/ProjectTemplate.WebAttachments"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%

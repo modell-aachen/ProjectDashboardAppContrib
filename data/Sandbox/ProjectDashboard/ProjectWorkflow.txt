@@ -1,0 +1,61 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1386343451" format="1.1" reprev="9" version="9"}%
+---++ Defaults
+| *State type* | *Left tab* | *Right tab* | *Approved* |
+| approved | Stage workflow | Discussion | 1 |
+| draft | Stage workflow | Draft | 1 |
+| discussion | Stage workflow | Discussion | 1 |
+
+---++ States
+%EDITTABLE{}%
+| *State* | *Allow Edit* | *Allow Move* | *Allow Comment* | *Message* | *State Type* |
+| NEW | LOGGEDIN | nobody | LOGGEDIN | Project is not yet in CIP. | draft |
+| DRAFT | LOGGEDIN | nobody | LOGGEDIN | Project is a draft. | draft |
+| STAGE1 | %QUERY{"Projectleader"}%,%QUERY{"Projectteam"}% | nobody | nobody | Project is in stage 1. | discussion |
+| STAGE1APPROVAL | %QUERY{"Projectleader"}% | nobody | nobody | Project is waiting for approval for stage 1. | discussion |
+| STAGE2 | %QUERY{"Projectleader"}%,%QUERY{"Projectteam"}% | nobody | nobody | Project is in stage 2. | discussion |
+| STAGE2APPROVAL | %QUERY{"Projectleader"}% | nobody | nobody | Project is waiting for approval for stage 3. | discussion |
+| STAGE3 | %QUERY{"Projectleader"}%,%QUERY{"Projectteam"}% | nobody | nobody | Project is in stage 3. | discussion |
+| STAGE3APPROVAL | %QUERY{"Projectleader"}% | nobody | nobody | Project is waiting for approval for stage 3. | discussion |
+| STAGE4 | %QUERY{"Projectleader"}%,%QUERY{"Projectteam"}% | nobody | nobody | Project is in stage 4. | discussion |
+| STAGE4APPROVAL | %QUERY{"Projectleader"}% | nobody | nobody | Project is waiting for approval for stage 4. | discussion |
+| STAGE5 | %QUERY{"Projectleader"}%,%QUERY{"Projectteam"}% | nobody | nobody | Project is in stage 5. | discussion |
+| STAGE5APPROVAL | %QUERY{"Projectleader"}% | nobody | nobody | Project is waiting for approval for stage 5. | discussion |
+| KILLED | nobody | nobody | nobody | Project is killed. | discussion |
+| CLOSED | nobody | nobody | nobody | Project is closed. | discussion |
+
+---++ Transitions
+%EDITTABLE{}%
+| *State* | *Action* | *Next State* | *Allowed* | *Notify* | *Condition* | *Warning* | *Attribute* |
+| NEW | Create | DRAFT | LOGGEDIN | | | | NEW |
+| NEW | Put under CIP | DRAFT | LOGGEDIN | | | | |
+| DRAFT | Starting stage 1 | STAGE1 | %QUERY{"Projectleader"}% | | | | |
+| DRAFT | Kill this project | KILLED | %QUERY{"Projectleader"}% | | | | |
+| STAGE1 | Ask for stage 1 signatures | STAGE1APPROVAL | %QUERY{"Projectleader"}% | %QUERY{"Projectleader"}%,%QUERY{"Projectrequester"}%,%QUERY{"BUmanager"}%, %QUERY{"ProjectDashboard.anager"}% | | | |
+| STAGE1APPROVAL | Recycle this project to last stage | STAGE1 | %QUERY{"Projectleader"}% | | | | |
+| STAGE1APPROVAL | Kill this project | KILLED | %QUERY{"Projectleader"}% | | | | |
+| STAGE1APPROVAL | Starting stage 2 | STAGE2 | %QUERY{"Projectleader"}% | | | | SETFIELD(Stage1Done="done") |
+| STAGE2 | Ask for stage 2 signatures | STAGE2APPROVAL | %QUERY{"Projectleader"}% | %QUERY{"Projectleader"}%,%QUERY{"Projectrequester"}%,%QUERY{"BUmanager"}%,%QUERY{"ProjectDashboard.anager"}% | | | |
+| STAGE2APPROVAL | Recycle this project to last stage | STAGE2 | %QUERY{"Projectleader"}% | | | | |
+| STAGE2APPROVAL | Kill this project | KILLED | %QUERY{"Projectleader"}% | | | | |
+| STAGE2APPROVAL | Starting stage 3 | STAGE3 | %QUERY{"Projectleader"}% | | | | SETFIELD(Stage2Done="done") |
+| STAGE3 | Ask for stage 3 signatures | STAGE3APPROVAL | %QUERY{"Projectleader"}% | %QUERY{"Projectleader"}%,%QUERY{"Projectrequester"}%,%QUERY{"BUmanager"}%,%QUERY{"ProjectDashboard.anager"}%,%QUERY{"Productionlinemanager"}%,%QUERY{"Qualitymanager"}% | | | |
+| STAGE3APPROVAL | Recycle this project to last stage | STAGE3 | %QUERY{"Projectleader"}% | | | | |
+| STAGE3APPROVAL | Kill this project | KILLED | %QUERY{"Projectleader"}% | | | | |
+| STAGE3APPROVAL | Starting stage 4 | STAGE4 | %QUERY{"Projectleader"}% | | | | SETFIELD(Stage3Done="done") |
+| STAGE4 | Ask for stage 4 signatures | STAGE4APPROVAL | %QUERY{"Projectleader"}% | %QUERY{"Projectleader"}%,%QUERY{"Projectrequester"}%,%QUERY{"BUmanager"}%,%QUERY{"ProjectDashboard.anager"}%,%QUERY{"Productionlinemanager"}%,%QUERY{"Qualitymanager"}%| | | |
+| STAGE4APPROVAL | Recycle this project to last stage | STAGE4 | %QUERY{"Projectleader"}% | | | | |
+| STAGE4APPROVAL | Kill this project | KILLED | %QUERY{"Projectleader"}% | | | | |
+| STAGE4APPROVAL | Starting stage 5 | STAGE5 | %QUERY{"Projectleader"}% | | | | SETFIELD(Stage4Done="done") |
+| STAGE5 | Ask for stage 5 signatures | STAGE5APPROVAL | %QUERY{"Projectleader"}% | %QUERY{"Projectleader"}%,%QUERY{"Projectrequester"}%,%QUERY{"BUmanager"}%,%QUERY{"ProjectDashboard.anager"}%,%QUERY{"Productionlinemanager"}%,%QUERY{"Qualitymanager"}%| | | |
+| STAGE5APPROVAL | Recycle this project to last stage | STAGE5 | %QUERY{"Projectleader"}% | | | | |
+| STAGE5APPROVAL | Kill this project | KILLED | %QUERY{"Projectleader"}% | | | | |
+| STAGE5APPROVAL | Close this project | CLOSED | %QUERY{"Projectleader"}% | | | | SETFIELD(Stage4Done="done") |
+
+
+
+   * Set NOWYSIWYG=1
+   * Set WORKFLOW=
+   * Set VIEW_TEMPLATE = WorkflowView
+   * Set ALLOWTOPICCHANGE = AdminGroup
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1371042339" from="Projects.PhaseWorkflow" to="Projects.ProjectWorkflow"}%

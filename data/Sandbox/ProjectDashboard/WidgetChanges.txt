@@ -1,0 +1,17 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386605105" format="1.1" reprev="3" version="2"}%
+%META:TOPICPARENT{name="WebHome"}%
+<div class="widgetBlockTitle">%MAKETEXT{"Recent changes"}%</div>
+<div class="widgetBlockContent">
+%SOLRSEARCH{
+"* -topic:(WebHome OR WebAttachments OR WebContentTemplates OR WebActions)"
+web="%BASEWEB%"
+header="<p>"
+format="<strong>[[$web.$topic][$percntIF{\"'$field_TopicTitle_s'=~'^\$'\" then=\"$topic\" else=\"$field_TopicTitle_s\"}$percnt]]</strong><br><span style=\"font-size:10px;\">$author | $date</span>"
+separator="</p>"
+footer="</p>"
+rows="5"
+sort="date desc"
+}%
+</div>
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminUser"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
