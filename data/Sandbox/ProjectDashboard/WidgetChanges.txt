@@ -1,9 +1,9 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386605105" format="1.1" reprev="3" version="2"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1397055948" format="1.1" reprev="3" version="2"}%
 %META:TOPICPARENT{name="WebHome"}%
 <div class="widgetBlockTitle">%MAKETEXT{"Recent changes"}%</div>
 <div class="widgetBlockContent">
 %SOLRSEARCH{
-"* -topic:(WebHome OR WebAttachments OR WebContentTemplates OR WebActions)"
+"* -topic:(WebHome OR WebAttachments OR WebContentTemplates OR WebTasks)"
 web="%BASEWEB%"
 header="<p>"
 format="<strong>[[$web.$topic][$percntIF{\"'$field_TopicTitle_s'=~'^\$'\" then=\"$topic\" else=\"$field_TopicTitle_s\"}$percnt]]</strong><br><span style=\"font-size:10px;\">$author | $date</span>"

@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604730" format="1.1" reprev="12" version="2"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1397056108" format="1.1" reprev="2" version="2"}%
 %ADDTOZONE{"script" requires="JQUERYPLUGIN" text="<script type=\"application/javascript\" src=\"%PUBURLPATH%/System/ActionTrackerPlugin/atp.js\"></script>"}%
 
 <style>
@@ -16,7 +16,7 @@
 <noautolink>
 <div id="Signal">
 %SOLRSEARCH{
-"type:action topic:WebActions"
+"type:action topic:WebTasks"
 web="%BASEWEB%"
   format="<div class=\"modac_task_wrapper\">
 <span class=\"modac_task_actiontitle\">$title | %MAKETEXT{"due"}%: $percntIF{\"'$action_due_dt'~'$*'\" else=\"$action_due_dt\"}$percnt | $percntSUBST{text=\"$action_who_s\" pattern=\"^Main\.\" format=\"\"}$percnt <a class=\"atp_edit ui-icon ui-icon-pencil\" title=\"%MAKETEXT{"Edit"}%\" href=\"%SCRIPTURL{"edit"}%/$web/$topic?nowysiwyg=1;skin=action,%SKIN%;t=%GMTIME{"$epoch"}%;atp_action=$action_uid_s\">%MAKETEXT{"Edit"}%</a></span>

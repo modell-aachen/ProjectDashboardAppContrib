@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604243" format="1.1" reprev="14" version="2"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1397056244" format="1.1" reprev="2" version="2"}%
 %TMPL:INCLUDE{view}%
 %TMPL:DEF{"contentheaderstylewrapper"}%
 <div class="foswikiContentHeader"></div>
@@ -20,7 +20,7 @@
 %TMPL:DEF{"newaction"}%
 %JQREQUIRE{"textboxlist"}%
 <div id="action_add">
-%BUTTON{text="%MAKETEXT{"Add new task"}%" onclick="$('#stageactiondlg').dialog('option', 'minWidth', 520).dialog('option', 'title', 'Add task (action)').dialog('open').html('<span id=&quot;jqAjaxLoader&quot;>&nbsp;</span>').load(foswiki.getPreference('SCRIPTURLPATH')+'/view/ProjectDashboard.WidgetHelperActions?target='+foswiki.getPreference('WEB')+'/WebActions;action_context='+foswiki.getPreference('WEB')+'.'+foswiki.getPreference('TOPIC')+';skin=projects,text');"}%%CLEAR%
+%BUTTON{text="%MAKETEXT{"Add new task"}%" onclick="$('#stageactiondlg').dialog('option', 'minWidth', 520).dialog('option', 'title', 'Add task (action)').dialog('open').html('<span id=&quot;jqAjaxLoader&quot;>&nbsp;</span>').load(foswiki.getPreference('SCRIPTURLPATH')+'/view/ProjectDashboard.WidgetHelperActions?target='+foswiki.getPreference('WEB')+'/WebTasks;action_context='+foswiki.getPreference('WEB')+'.'+foswiki.getPreference('TOPIC')+';skin=projects,text');"}%%CLEAR%
 </div><div id="stageactiondlg" class="jqUIDialog"></div>
 %TMPL:END%
 
@@ -31,13 +31,13 @@
 <p>
 %TABPANE{select="%URLPARAM{"tab"}%" class="simple"}%
 %TAB{"%MAKETEXT{"open tasks"}%"}%
-<div id="SignalOpenTasks">%ACTIONSEARCH{web="%WEB%" sort="$due" topic="WebActions" context="%WEB%.%TOPIC%" state="open" sort="$createdate,$who,$due" jqsortable="1" jqsortopts="widgets: ['zebra'], sortList: [[0,1],[0,1]], headers: { 0: { sorter: 'qwikiDate' }, 5: { sorter: 'qwikiDate' }, 6: { sorter: 'qwikiDate' }, 7: { sorter: false }, 8: { sorter: false }, 9: { sorter: false }}"}%</div>
+<div id="SignalOpenTasks">%ACTIONSEARCH{web="%WEB%" sort="$due" topic="WebTasks" context="%WEB%.%TOPIC%" state="open" sort="$createdate,$who,$due" jqsortable="1" jqsortopts="widgets: ['zebra'], sortList: [[0,1],[0,1]], headers: { 0: { sorter: 'qwikiDate' }, 5: { sorter: 'qwikiDate' }, 6: { sorter: 'qwikiDate' }, 7: { sorter: false }, 8: { sorter: false }, 9: { sorter: false }}"}%</div>
 %ENDTAB%
 %TAB{"%MAKETEXT{"closed tasks"}%"}%
-<div id="SignalClosedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebActions" context="%WEB%.%TOPIC%" state="closed" sort="$createdate,$who,$due"}%</div>
+<div id="SignalClosedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebTasks" context="%WEB%.%TOPIC%" state="closed" sort="$createdate,$who,$due"}%</div>
 %ENDTAB%
 %TAB{"%MAKETEXT{"discarded tasks"}%"}%
-<div id="SignalDiscardedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebActions" context="%WEB%.%TOPIC%" state="discarded" sort="$createdate,$who,$due"}%</div>
+<div id="SignalDiscardedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebTasks" context="%WEB%.%TOPIC%" state="discarded" sort="$createdate,$who,$due"}%</div>
 %ENDTAB%
 %AMPEL{"SignalOpenTasks" WARN="7" DATE="%MAKETEXT{"Due"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"State"}%" COND="closed"}%
 %AMPEL{"SignalClosedTasks" WARN="7" DATE="%MAKETEXT{"Due"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"State"}%" COND="closed"}%

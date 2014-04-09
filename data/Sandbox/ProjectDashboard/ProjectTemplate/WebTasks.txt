@@ -1,0 +1,16 @@
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1397056379" format="1.1" reprev="2" version="2"}%
+The WebTasks topic is the container for all project relating tasks.
+
+
+
+
+
+
+
+
+%META:TOPICMOVED{by="BaseUserMapping_333" date="1397056379" from="Sandbox/ProjectDashboard/ProjectTemplate.WebActions" to="Sandbox/ProjectDashboard/ProjectTemplate.WebTasks"}%
+%META:WORKFLOWHISTORY{value="<br>DRAFT -- 13.06.2013"}%
+%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.StoffersAlexander" LASTTIME_DRAFT="13.06.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.StoffersAlexander" Remark="" Revision="0" TASK="" TASK_DUE=""}%
+%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.StoffersAlexander,Main.AdminUser,Main.AdminUser"}%
+%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
+%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%
