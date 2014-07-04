@@ -11,8 +11,6 @@
 
 ---++ Modell Aachen Settings
 
-   * Set CONTENTTEMPLATEWEB = Sandbox.ProjectDashboard
-   
    * Set WORKFLOW = 
 
 ---++ Appearance
@@ -56,6 +54,7 @@
    * Set ACTIONTRACKERPLUGIN_EDITFORMAT = | $who | $due | $state | $context | $task |
    * Set ACTIONTRACKERPLUGIN_USERS_AUTOCOMPLETE = %USERAUTOCOMPLETE%
    * Set ACTIONTRACKERPLUGIN_ENABLESTATESHORTCUT = 0
+   * Set ACTIONTRACKERPLUGIN_AUTODISPLAY = 0
 
 ---++ Access control
 
