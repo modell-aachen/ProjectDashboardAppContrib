@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1386604293" format="1.1" reprev="12" version="2"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1404825374" format="1.1" reprev="2" version="2"}%
 %TMPL:INCLUDE{edit}%
 
 %TMPL:DEF{"content"}%%TMPL:P{"simpleheader"}%
@@ -15,7 +15,7 @@
 <div class="widgetBlockContent">
 <div style="float:left; margin-right:1%;width:49%">
 <table class="metaDataHead">
-<tr><td width="120px">%MAKETEXT{"Title"}%:</td><td>%RENDERFOREDIT{field="Title" format="$edit"}%</td></tr>
+<tr><td width="120px">%MAKETEXT{"Title"}%<font color="red">*</font>:</td><td>%RENDERFOREDIT{field="Title" format="$edit"}%</td></tr>
 <tr><td valign="top">%MAKETEXT{"Description"}%:</td><td>%RENDERFOREDIT{field="Description" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"BU"}%:</td><td>%RENDERFOREDIT{field="BU" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"Segment"}%:</td><td>%RENDERFOREDIT{field="Segment" format="$edit"}%</td></tr>
@@ -25,7 +25,7 @@
 <div style="float:left;width:49%">
 <table class="metaDataHead">
 <tr><td width="200px">%MAKETEXT{"Project requester"}%:</td><td>%RENDERFOREDIT{field="Projectrequester" format="$edit"}%</td></tr>
-<tr><td>%MAKETEXT{"Project leader"}%:</td><td>%RENDERFOREDIT{field="Projectleader" format="$edit"}%</td></tr>
+<tr><td>%MAKETEXT{"Project leader"}%<font color="red">*</font>:</td><td>%RENDERFOREDIT{field="Projectleader" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"Project team"}%:</td><td>%RENDERFOREDIT{field="Projectteam" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"Managing director"}%:</td><td>%RENDERFOREDIT{field="Managingdirector" format="$edit"}%</td></tr>
 <tr><td>%MAKETEXT{"Business unit manager"}%:</td><td>%RENDERFOREDIT{field="BUmanager" format="$edit"}%</td></tr>

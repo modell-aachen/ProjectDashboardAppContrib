@@ -1,8 +1,6 @@
-WebActions	BaseUserMapping_333	1397055947	2	
-WebTasks	BaseUserMapping_333	1397055947	2	
-WebTasks	BaseUserMapping_333	1397055948	2	minor, reprev
-MilestoneViewTemplate	BaseUserMapping_333	1397055948	2	minor
-WidgetActions	BaseUserMapping_333	1397055948	2	minor
-WidgetChanges	BaseUserMapping_333	1397055948	2	minor
-WidgetActions	BaseUserMapping_333	1397056108	2	minor, reprev
-MilestoneViewTemplate	BaseUserMapping_333	1397056244	2	minor, reprev
+WebActions	BaseUserMapping_333	1404824807	2	minor
+WebPreferences	BaseUserMapping_333	1404824862	1	minor, reprev
+WebPreferences	BaseUserMapping_333	1404825096	1	minor, reprev
+WebHome	BaseUserMapping_333	1404825191	2	
+ProjectEditTemplate	BaseUserMapping_333	1404825359	2	
+ProjectEditTemplate	BaseUserMapping_333	1404825374	2	minor, reprev

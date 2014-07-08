@@ -1,15 +1,6 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1373889335" format="1.1" reprev="3" version="3"}%
-The WebAction topic is the container for all project relating actions.
+%META:TOPICINFO{author="BaseUserMapping_333" comment="pending" date="1404824783" format="1.1" version="3"}%
+   * <a href="%SCRIPTURL{rest}%/WebAutoIncPlugin/create?newweb=%WIDGETWEB%%2fProjectAUTOINC0000&baseweb=%WIDGETWEB%.ProjectTemplate&nosearchall=off&redirectto=newweb">%MAKETEXT{"Create new project"}%</a>
 
-
-
-
-
-
-
-
-%META:WORKFLOWHISTORY{value="<br>DRAFT -- 13.06.2013"}%
-%META:WORKFLOW{name="DRAFT" LASTPROCESSOR_DRAFT="Main.StoffersAlexander" LASTTIME_DRAFT="13.06.2013" LASTVERSION_DRAFT="1" LEAVING_NEW="Main.StoffersAlexander" Remark="" Revision="0" TASK="" TASK_DUE=""}%
-%META:PREFERENCE{name="DISPLAYCOMMENTS" value="on"}%
-%META:PREFERENCE{name="DENYTOPICCOMMENT" title="DENYTOPICCOMMENT" value="WikiGuest"}%
-%META:WRKFLWCONTRIBUTORS{name="DRAFT" value="Main.StoffersAlexander,Main.AdminUser,Main.AdminUser"}%
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%

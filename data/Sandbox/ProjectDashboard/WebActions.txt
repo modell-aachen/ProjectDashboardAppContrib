@@ -1,2 +1,6 @@
-%META:TOPICINFO{author="AdminUser" date="1376396380" format="1.1" version="2"}%
-%ACTION{ closer="" context="" created="2013-06-13" createdate="2013-06-13" creator="StoffersAlexander" due="2013-06-18" kuerzel="StoffersAlexander" notify="" state="discarded" task="Testen wir mal durch..." uid="000076" who="AdminUser" zeit="" }% Da ist einiges zu tun! %ENDACTION% 
+%META:TOPICINFO{author="BaseUserMapping_333" comment="pending" date="1404824807" format="1.1" version="2"}%
+   * <a href="%SCRIPTURL{rest}%/WebAutoIncPlugin/create?newweb=%WIDGETWEB%%2fProjectAUTOINC0000&baseweb=%WIDGETWEB%.ProjectTemplate&nosearchall=off&redirectto=newweb">%MAKETEXT{"Create new project"}%</a>
+
+%META:PREFERENCE{name="ALLOWTOPICCHANGE" title="ALLOWTOPICCHANGE" type="Set" value="AdminGroup"}%
+%META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Set" value="1"}%
+%META:PREFERENCE{name="WORKFLOW" title="WORKFLOW" type="Set" value=""}%

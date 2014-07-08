@@ -1,8 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1389259981" format="1.1" reprev="13" version="2"}%
-<div class="widgetBlockTitle">%MAKETEXT{"Create new project"}%</div>
-<div class="widgetBlockContent">
-%BUTTON{"%MAKETEXT{"Create new project"}%" href="%SCRIPTURL{rest}%/WebAutoIncPlugin/create?newweb=%WIDGETWEB%%2fProjectAUTOINC0000&baseweb=%WIDGETWEB%.ProjectTemplate&nosearchall=off&redirectto=newweb"}%
-</div>
+%META:TOPICINFO{author="BaseUserMapping_333" comment="reprev" date="1404825191" format="1.1" reprev="13" version="2"}%
 <div class="widgetBlockTitle">%MAKETEXT{"Projects overview"}%</div>
 <div class="widgetBlockContent">
 <div id="SignalStage1">
