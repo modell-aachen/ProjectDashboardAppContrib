@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/Sandbox/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt:13
+msgid "%1 edited the topic %2."
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt:9
+msgid "%1 has a new state: %2"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:79 data/Sandbox/ProjectDashboard/WidgetStages.txt:17
+msgid "%GETWORKFLOWROW{"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetData.txt:15 data/Sandbox/ProjectDashboard/WidgetStages.txt:10 data/Sandbox/ProjectDashboard/WidgetStages.txt:11 data/Sandbox/ProjectDashboard/WidgetStages.txt:12 data/Sandbox/ProjectDashboard/WidgetStages.txt:8 data/Sandbox/ProjectDashboard/WidgetStages.txt:9
+msgid "%QUERY{"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:23
+msgid "Add new task"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:13
+msgid "Add task"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:16 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:70
+msgid "Approval criteria"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneTemplate.txt:4 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone000.txt:6 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone001.txt:6 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone002.txt:6 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone003.txt:6
+msgid "Attach forms, do a lot of stuff..."
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetAttachments.txt:2
+msgid "Attachments"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:20 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:30 data/Sandbox/ProjectDashboard/WebHome.txt:10 data/Sandbox/ProjectDashboard/WidgetData.txt:7
+msgid "BU"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:9 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:17 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:6
+msgid "Back to dashboard"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:31 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:41
+msgid "Business unit manager"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WebPreferences.txt:53
+msgid "Closed on"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WebPreferences.txt:55
+msgid "Context"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectTemplate/WebActions.txt:2 data/Sandbox/ProjectDashboard/WebActions.txt:2
+msgid "Create new project"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CreateNewMilestoneViewTemplate.txt:8
+msgid "Create new task (aka milestone)"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CreateNewMilestoneViewTemplate.txt:21
+msgid "Create topic"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:7 data/Sandbox/ProjectDashboard/WebPreferences.txt:53
+msgid "Creator"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:19 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:88
+msgid "Criteria"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:22 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:32 data/Sandbox/ProjectDashboard/WidgetData.txt:9
+msgid "Customer"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:51 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:62 data/Sandbox/ProjectDashboard/WebPreferences.txt:53
+msgid "Date"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:19 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:51 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:29 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:62 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:17 data/Sandbox/ProjectDashboard/WebHome.txt:10 data/Sandbox/ProjectDashboard/WidgetData.txt:6 data/Sandbox/ProjectDashboard/WidgetStages.txt:7
+msgid "Description"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:11 data/Sandbox/ProjectDashboard/WebPreferences.txt:53 data/Sandbox/ProjectDashboard/WebPreferences.txt:55
+msgid "Details"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:51 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:62
+msgid "Done"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:42 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:43 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:44 data/Sandbox/ProjectDashboard/WebPreferences.txt:53 data/Sandbox/ProjectDashboard/WebPreferences.txt:55
+msgid "Due"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:9
+msgid "Due date"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetActions.txt:22
+msgid "Edit"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetData.txt:14
+msgid "End"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:19 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:88
+msgid "Estimated values"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt:21
+msgid "For questions, please refer to:"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:23 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:92
+msgid "Generated turnover / contribution margin 1 or 2"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WebPreferences.txt:34
+msgid "Go"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetStages.txt:20
+msgid "Go to workflow"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:20 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:89
+msgid "Investment efficiency"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetData.txt:18
+msgid "Jump to project data"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WebPreferences.txt:34
+msgid "Kill"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:81
+msgid "Last editing person"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt:17
+msgid "Link to the page:"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:30 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:40
+msgid "Managing director"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:19 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:88
+msgid "Maybe OK (yellow)"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:12
+msgid "Milestone"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneEditTemplate.txt:14
+msgid "Milestone data"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneEditTemplate.txt:22 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:48
+msgid "Milestone description"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageViewTemplate.txt:22 data/Sandbox/ProjectDashboard/WidgetTasks.txt:2
+msgid "Milestones"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageViewTemplate.txt:28 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:41 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:53
+msgid "Name"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:80
+msgid "Next step"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:19 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:88
+msgid "Not OK (red)"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:19 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:88
+msgid "OK (green)"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:14 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:24 data/Sandbox/ProjectDashboard/WidgetData.txt:2
+msgid "Outline data"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneTemplate.txt:2 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone000.txt:4 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone001.txt:4 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone002.txt:4 data/Sandbox/ProjectDashboard/ProjectTemplate/WebMilestone003.txt:4
+msgid "Please describe the Milestone!"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:33 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:43
+msgid "Production line manager"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/DashboardViewTemplate.txt:11 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:11 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:8 data/Sandbox/ProjectDashboard/WebHome.txt:10
+msgid "Project"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:74
+msgid "Project approval process"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:45 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:56 data/Sandbox/ProjectDashboard/WebHome.txt:10
+msgid "Project end"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:28 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:38 data/Sandbox/ProjectDashboard/WebHome.txt:10 data/Sandbox/ProjectDashboard/WidgetData.txt:11
+msgid "Project leader"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:27 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:37 data/Sandbox/ProjectDashboard/WidgetData.txt:10
+msgid "Project requester"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:45 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:56 data/Sandbox/ProjectDashboard/WebHome.txt:10
+msgid "Project start"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetStages.txt:15 data/Sandbox/ProjectDashboard/WidgetStages.txt:17
+msgid "Project state"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:29 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:39 data/Sandbox/ProjectDashboard/WidgetData.txt:12
+msgid "Project team"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:78
+msgid "Project workflow"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:41 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:52 data/Sandbox/ProjectDashboard/WidgetStages.txt:2
+msgid "Project-Controlling"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetStages.txt:5
+msgid "Project-Stage state"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:32 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:42
+msgid "ProjectDashboard.manager"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WebHome.txt:2
+msgid "Projects overview"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:34 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:44
+msgid "Quality manager"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetChanges.txt:3
+msgid "Recent changes"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WebPreferences.txt:34
+msgid "Recycle"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt:38
+msgid "Remarks"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneEditTemplate.txt:18 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:18 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:28 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:41 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:53 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:62 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:63 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:64 data/Sandbox/ProjectDashboard/WidgetStages.txt:13 data/Sandbox/ProjectDashboard/WidgetStages.txt:7
+msgid "Scheduled date"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:21 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:31 data/Sandbox/ProjectDashboard/WidgetData.txt:8
+msgid "Segment"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:42 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:43 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:44 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:28 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:41 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:53 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:62 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:63 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:64 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:88 data/Sandbox/ProjectDashboard/WebPreferences.txt:53
+msgid "Signal"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageViewTemplate.txt:96
+msgid "Signatures"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:51 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:52 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:53 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:54 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:55 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:56 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:62 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:63 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:64 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:65 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:66 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:67 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:9 data/Sandbox/ProjectDashboard/WebHome.txt:10 data/Sandbox/ProjectDashboard/WebHome.txt:19 data/Sandbox/ProjectDashboard/WebHome.txt:20 data/Sandbox/ProjectDashboard/WebHome.txt:21 data/Sandbox/ProjectDashboard/WebHome.txt:22 data/Sandbox/ProjectDashboard/WebHome.txt:23 data/Sandbox/ProjectDashboard/WidgetStages.txt:7
+msgid "Stage"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:8 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:13
+msgid "Stage data"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetData.txt:13
+msgid "Start"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneEditTemplate.txt:19 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:42 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:43 data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:44 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:45 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:56 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:79 data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:12 data/Sandbox/ProjectDashboard/WebPreferences.txt:53 data/Sandbox/ProjectDashboard/WebPreferences.txt:55 data/Sandbox/ProjectDashboard/WidgetData.txt:15 data/Sandbox/ProjectDashboard/WidgetStages.txt:13 data/Sandbox/ProjectDashboard/WidgetStages.txt:7
+msgid "State"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:22 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:91
+msgid "Success ratio"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:10 data/Sandbox/ProjectDashboard/WebPreferences.txt:53 data/Sandbox/ProjectDashboard/WebPreferences.txt:55
+msgid "Task"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:8 data/Sandbox/ProjectDashboard/WebPreferences.txt:53 data/Sandbox/ProjectDashboard/WebPreferences.txt:55
+msgid "Task to"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:28 data/Sandbox/ProjectDashboard/WidgetActions.txt:14
+msgid "Tasks"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectTemplate/WebAtom.txt:3 data/Sandbox/ProjectDashboard/ProjectTemplate/WebRss.txt:5 data/Sandbox/ProjectDashboard/WebAtom.txt:3 data/Sandbox/ProjectDashboard/WebRss.txt:5
+msgid "The %1 web of %2."
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectTemplate/WebNotify.txt:2 data/Sandbox/ProjectDashboard/WebNotify.txt:2
+msgid "This is a subscription service to be automatically notified by e-mail when topics change in this %1 web. This is a convenient service, so you do not have to come back and check all the time if something has changed. To subscribe, please add a bullet with your %2 in alphabetical order to this list:"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt:19
+msgid "This is an automatically generated message. Please do not reply to this email."
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageEditTemplate.txt:21 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:90
+msgid "Time to market"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneEditTemplate.txt:17 data/Sandbox/ProjectDashboard/ProjectEditTemplate.txt:18 data/Sandbox/ProjectDashboard/ProjectViewTemplate.txt:28 data/Sandbox/ProjectDashboard/StageViewTemplate.txt:16 data/Sandbox/ProjectDashboard/WidgetData.txt:5
+msgid "Title"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CreateNewMilestoneViewTemplate.txt:14
+msgid "Topic name"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/CreateNewMilestoneViewTemplate.txt:20
+msgid "Use a topic name in %SYSTEMWEB%.WikiNotation"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneForm.txt:5 data/Sandbox/ProjectDashboard/ProjectForm.txt:20 data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:12 data/Sandbox/ProjectDashboard/WebPreferences.txt:52
+msgid "closed"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageViewTemplate.txt:38
+msgid "closed milestones"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:36
+msgid "closed tasks"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetActions.txt:28
+msgid "context"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetActions.txt:26
+msgid "created"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneForm.txt:5 data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:12 data/Sandbox/ProjectDashboard/WebPreferences.txt:52
+msgid "discarded"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageViewTemplate.txt:50
+msgid "discarded milestones"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:39
+msgid "discarded tasks"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/ProjectForm.txt:22 data/Sandbox/ProjectDashboard/ProjectForm.txt:24 data/Sandbox/ProjectDashboard/ProjectForm.txt:26 data/Sandbox/ProjectDashboard/ProjectForm.txt:28 data/Sandbox/ProjectDashboard/ProjectForm.txt:30
+msgid "done"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/WidgetActions.txt:22
+msgid "due"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneForm.txt:5 data/Sandbox/ProjectDashboard/ProjectForm.txt:20 data/Sandbox/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt:12 data/Sandbox/ProjectDashboard/WebPreferences.txt:52
+msgid "open"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/StageViewTemplate.txt:25
+msgid "open milestones"
+msgstr ""
+
+#: data/Sandbox/ProjectDashboard/MilestoneViewTemplate.txt:33
+msgid "open tasks"
+msgstr ""
