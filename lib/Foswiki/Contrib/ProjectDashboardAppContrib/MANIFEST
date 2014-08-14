@@ -1,4 +1,3 @@
-data/_apps/ProjectDashboard/.changes 0644
 data/_apps/ProjectDashboard/CreateNewMilestoneViewTemplate.txt 0644
 data/_apps/ProjectDashboard/CustomSkinTransitionsTemplate.txt 0644
 data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt 0644
@@ -10,7 +9,6 @@ data/_apps/ProjectDashboard/MilestoneViewTemplate.txt 0644
 data/_apps/ProjectDashboard/ProjectEditTemplate.txt 0644
 data/_apps/ProjectDashboard/ProjectForm.txt 0644
 data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt 0644
-data/_apps/ProjectDashboard/ProjectTemplate/.changes 0644
 data/_apps/ProjectDashboard/ProjectTemplate/SolrSearch.txt 0644
 data/_apps/ProjectDashboard/ProjectTemplate/WebActions.txt 0644
 data/_apps/ProjectDashboard/ProjectTemplate/WebAtom.txt 0644
