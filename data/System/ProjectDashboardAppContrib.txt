@@ -5,7 +5,7 @@ Modell Aachen ProjectDashboard WikiApp
 
 ---++ Installation
 
-   * The ProjectDashboardAppContrib will create a subweb _ProjectDashboard_ in the sandbox.
+   * The ProjectDashboardAppContrib will create a subweb _ProjectDashboard_ in _apps.
    * Move this subweb to where you want and rename it if needed. Also consider the subweb _ProjectTemplate_ in it.
    * Reload web-server and restart iwatch.
    * To use the standard app theme of Modell Aachen GmbH:
