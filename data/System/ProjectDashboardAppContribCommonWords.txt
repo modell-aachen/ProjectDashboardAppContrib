@@ -1,0 +1,39 @@
+%---++ This Document lists some common words
+These words are often mentioned in workflows and might slip into a %MAKE%NOP%TEXT% statement. They are listed here to be included in the language file.
+
+---+++ Words
+%MAKETEXT{"Stage workflow"}%
+%MAKETEXT{"Discussion"}%
+%MAKETEXT{"Draft"}%
+
+%MAKETEXT{"Project is not yet in CIP."}%
+%MAKETEXT{"Project is a draft."}%
+%MAKETEXT{"Project is in stage 1."}%
+%MAKETEXT{"Project is in stage 2."}%
+%MAKETEXT{"Project is in stage 3."}%
+%MAKETEXT{"Project is in stage 4."}%
+%MAKETEXT{"Project is in stage 5."}%
+%MAKETEXT{"Project is waiting for approval for stage 1."}%
+%MAKETEXT{"Project is waiting for approval for stage 2."}%
+%MAKETEXT{"Project is waiting for approval for stage 3."}%
+%MAKETEXT{"Project is waiting for approval for stage 4."}%
+%MAKETEXT{"Project is waiting for approval for stage 5."}%
+%MAKETEXT{"Project is killed."}%
+%MAKETEXT{"Project is closed."}%
+%MAKETEXT{"Starting stage 1"}%
+%MAKETEXT{"Starting stage 2"}%
+%MAKETEXT{"Starting stage 3"}%
+%MAKETEXT{"Starting stage 4"}%
+%MAKETEXT{"Starting stage 5"}%
+
+%MAKETEXT{"Create"}%
+%MAKETEXT{"Put under CIP"}%
+%MAKETEXT{"Kill this project"}%
+%MAKETEXT{"Close this project"}%
+%MAKETEXT{"Recycle this project to last stage"}%
+
+%MAKETEXT{"Ask for stage 1 signatures"}%
+%MAKETEXT{"Ask for stage 2 signatures"}%
+%MAKETEXT{"Ask for stage 3 signatures"}%
+%MAKETEXT{"Ask for stage 4 signatures"}%
+%MAKETEXT{"Ask for stage 5 signatures"}%
