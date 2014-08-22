@@ -101,6 +101,7 @@ data/_apps/ProjectDashboard/WidgetTasks.txt 0664
 data/System/ProjectDashboardAppContrib.txt 0664
 data/System/ProjectDashboardAppContribCommonWords.txt 0664
 lib/Foswiki/Contrib/ProjectDashboardAppContrib.pm 0444
+locale/ProjectDashboardAppContrib/cs.po 0664
 locale/ProjectDashboardAppContrib/de.po 0664
 locale/ProjectDashboardAppContrib/fr.po 0664
 locale/ProjectDashboardAppContrib/it.po 0664
