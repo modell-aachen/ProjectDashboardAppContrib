@@ -300,6 +300,9 @@ msgstr "Produktionsmanager"
 msgid "Project"
 msgstr "Projekt"
 
+msgid "Projects"
+msgstr "Projekte"
+
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Project approval process"
 msgstr "Projekt Freigabeprozess"
