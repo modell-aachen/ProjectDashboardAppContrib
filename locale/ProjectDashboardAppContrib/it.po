@@ -8,36 +8,36 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 msgid "Add new task"
-msgstr ""
+msgstr "Aggiungere nuovo task"
 
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 msgid "Add task"
-msgstr ""
+msgstr "Aggiungere task"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Approval criteria"
-msgstr ""
+msgstr "Criterio di approvazione"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Ask for stage 1 signatures"
-msgstr ""
+msgstr "Richiedere firme per stage 1"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Ask for stage 2 signatures"
-msgstr ""
+msgstr "Richiedere firme per stage 2"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Ask for stage 3 signatures"
-msgstr ""
+msgstr "Richiedere firme per stage 3"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Ask for stage 4 signatures"
-msgstr ""
+msgstr "Richiedere firme per stage 4"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Ask for stage 5 signatures"
-msgstr ""
+msgstr "Richiedere firme per stage 5"
 
 #: data/_apps/ProjectDashboard/MilestoneTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone000.txt
@@ -45,11 +45,11 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone002.txt
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone003.txt
 msgid "Attach forms, do a lot of stuff..."
-msgstr ""
+msgstr "Allegare modulo, fare  una serie di attività"
 
 #: data/_apps/ProjectDashboard/WidgetAttachments.txt
 msgid "Attachments"
-msgstr ""
+msgstr "Allegati"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -62,63 +62,63 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Back to dashboard"
-msgstr ""
+msgstr "Tornare al pannello strumenti"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Business unit manager"
-msgstr ""
+msgstr "General Manager"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Close this project"
-msgstr ""
+msgstr "Chiudere questo processo"
 
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Closed on"
-msgstr ""
+msgstr "Chiuso il"
 
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Context"
-msgstr ""
+msgstr "Contesto"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Create"
-msgstr ""
+msgstr "Creare"
 
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebActions.txt
 #: data/_apps/ProjectDashboard/WebActions.txt
 msgid "Create new project"
-msgstr ""
+msgstr "Creare un nuovo progetto"
 
 #: data/_apps/ProjectDashboard/CreateNewMilestoneViewTemplate.txt
 msgid "Create new task (aka milestone)"
-msgstr ""
+msgstr "Creare un nuovo task"
 
 #: data/_apps/ProjectDashboard/CreateNewMilestoneViewTemplate.txt
 msgid "Create topic"
-msgstr ""
+msgstr "Creare argomento"
 
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Creator"
-msgstr ""
+msgstr "Autore"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Criteria"
-msgstr ""
+msgstr "Criterio"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Customer"
-msgstr ""
+msgstr "Cliente"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -127,25 +127,25 @@ msgstr ""
 #: data/_apps/ProjectDashboard/WidgetData.txt
 #: data/_apps/ProjectDashboard/WidgetStages.txt
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Details"
-msgstr ""
+msgstr "Dettagli"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Discussion"
-msgstr ""
+msgstr "Discussione"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Done"
-msgstr ""
+msgstr "Completato"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Draft"
-msgstr ""
+msgstr "Bozza"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
@@ -154,24 +154,24 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 msgid "Due date"
-msgstr ""
+msgstr "Scadenza"
 
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "Edit"
-msgstr ""
+msgstr "Modificare"
 
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "End"
-msgstr ""
+msgstr "Fine"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Estimated values"
-msgstr ""
+msgstr "Valori stimati"
 
 #: data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt
 msgid "For questions, please refer to:"
-msgstr ""
+msgstr "Per domande, rivolgersi a:"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
@@ -180,36 +180,36 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Go"
-msgstr ""
+msgstr "Vai"
 
 #: data/_apps/ProjectDashboard/WidgetStages.txt
 msgid "Go to workflow"
-msgstr ""
+msgstr "Vai al workflow"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Investment efficiency"
-msgstr ""
+msgstr "Efficienza degli investimenti"
 
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Jump to project data"
-msgstr ""
+msgstr "Passare ai dati di progetto"
 
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Kill"
-msgstr ""
+msgstr "Sopprimere"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Kill this project"
-msgstr ""
+msgstr "Sopprimere questo progetto"
 
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Last editing person"
-msgstr ""
+msgstr "Ultime modifiche effettuate da"
 
 #: data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt
 msgid "Link to the page:"
-msgstr ""
+msgstr "Collegamento alla pagina:"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -219,7 +219,7 @@ msgstr ""
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Maybe OK (yellow)"
-msgstr ""
+msgstr "Dubbio (giallo)"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 msgid "Milestone"
@@ -227,12 +227,12 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/MilestoneEditTemplate.txt
 msgid "Milestone data"
-msgstr ""
+msgstr "Milestone dati"
 
 #: data/_apps/ProjectDashboard/MilestoneEditTemplate.txt
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 msgid "Milestone description"
-msgstr ""
+msgstr "Descrizione milestone"
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetTasks.txt
@@ -241,27 +241,27 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Next step"
-msgstr ""
+msgstr "Step successivo"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Not OK (red)"
-msgstr ""
+msgstr "Non OK (rosso)"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "OK (green)"
-msgstr ""
+msgstr "OK (verde)"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Outline data"
-msgstr ""
+msgstr "Schema dei dati"
 
 #: data/_apps/ProjectDashboard/MilestoneTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone000.txt
@@ -269,85 +269,85 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone002.txt
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone003.txt
 msgid "Please describe the Milestone!"
-msgstr ""
+msgstr "Descrivere milestone"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Production line manager"
-msgstr ""
+msgstr "Production Manager"
 
 #: data/_apps/ProjectDashboard/DashboardViewTemplate.txt
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 #: data/_apps/ProjectDashboard/WebHome.txt
 msgid "Project"
-msgstr ""
+msgstr "Progetto"
 
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Project approval process"
-msgstr ""
+msgstr "Processo di approvazione progetto"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WebHome.txt
 msgid "Project end"
-msgstr ""
+msgstr "Fine progetto"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is a draft."
-msgstr ""
+msgstr "Il progetto è una bozza"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is closed."
-msgstr ""
+msgstr "Il progetto è chiuso"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 1."
-msgstr ""
+msgstr "Il progetto è allo stage 1"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 2."
-msgstr ""
+msgstr "Il progetto è allo stage 2"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 3."
-msgstr ""
+msgstr "Il progetto è allo stage 3"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 4."
-msgstr ""
+msgstr "Il progetto è allo stage 4"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 5."
-msgstr ""
+msgstr "Il progetto è allo stage 5"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is killed."
-msgstr ""
+msgstr "Il progetto è stato soppresso"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is not yet in CIP."
-msgstr ""
+msgstr "Il progetto non è ancora nel CIP"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 1."
-msgstr ""
+msgstr "Il progetto è in attesa di approvazione allo stage 1"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 2."
-msgstr ""
+msgstr "Il progetto è in attesa di approvazione allo stage 2"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 3."
-msgstr ""
+msgstr "Il progetto è in attesa di approvazione allo stage 3"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 4."
-msgstr ""
+msgstr "Il progetto è in attesa di approvazione allo stage 4"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 5."
-msgstr ""
+msgstr "Il progetto è in attesa di approvazione allo stage 5"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -366,21 +366,21 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WebHome.txt
 msgid "Project start"
-msgstr ""
+msgstr "Inizio del progetto"
 
 #: data/_apps/ProjectDashboard/WidgetStages.txt
 msgid "Project state"
-msgstr ""
+msgstr "Stato del progetto"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Project team"
-msgstr ""
+msgstr "Project Team"
 
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Project workflow"
-msgstr ""
+msgstr "Project workflow"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -390,12 +390,12 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/WidgetStages.txt
 msgid "Project-Stage state"
-msgstr ""
+msgstr "Stato Project-Stage"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "ProjectDashboard.manager"
-msgstr ""
+msgstr "ProjectDashboard.manager"
 
 #: data/_apps/ProjectDashboard/WebHome.txt
 msgid "Projects overview"
@@ -403,7 +403,7 @@ msgstr ""
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Put under CIP"
-msgstr ""
+msgstr "Mettere in CIP"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -412,41 +412,41 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/WidgetChanges.txt
 msgid "Recent changes"
-msgstr ""
+msgstr "Modifiche recenti"
 
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Recycle"
-msgstr ""
+msgstr "Recuperare"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Recycle this project to last stage"
-msgstr ""
+msgstr "Recuperare questo progetto all'ultimo stage"
 
 #: data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt
 msgid "Remarks"
-msgstr ""
+msgstr "Osservazioni"
 
 #: data/_apps/ProjectDashboard/MilestoneEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetStages.txt
 msgid "Scheduled date"
-msgstr ""
+msgstr "Data pianificata"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Segment"
-msgstr ""
+msgstr "Segmento"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Signal"
-msgstr ""
+msgstr "Segnale"
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Signatures"
-msgstr ""
+msgstr "Firme"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -467,27 +467,27 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Start"
-msgstr ""
+msgstr "Inizio"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Starting stage 1"
-msgstr ""
+msgstr "Avvio stage 1"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Starting stage 2"
-msgstr ""
+msgstr "Avvio stage 2"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Starting stage 3"
-msgstr ""
+msgstr "Avvio stage 3"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Starting stage 4"
-msgstr ""
+msgstr "Avvio stage 4"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Starting stage 5"
-msgstr ""
+msgstr "Avvio stage 5"
 
 #: data/_apps/ProjectDashboard/MilestoneEditTemplate.txt
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
@@ -498,12 +498,12 @@ msgstr ""
 #: data/_apps/ProjectDashboard/WidgetData.txt
 #: data/_apps/ProjectDashboard/WidgetStages.txt
 msgid "State"
-msgstr ""
+msgstr "Stato"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "Success ratio"
-msgstr ""
+msgstr "Percentuale di successo"
 
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
@@ -513,7 +513,7 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Task to"
-msgstr ""
+msgstr "Task assegnata a"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetActions.txt
@@ -535,6 +535,8 @@ msgstr ""
 #: data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt
 msgid "This is an automatically generated message. Please do not reply to this email."
 msgstr ""
+"Questo è un messaggio generato automaticamente. Non rispondere a questa "
+"email"
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
@@ -547,11 +549,11 @@ msgstr ""
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetData.txt
 msgid "Title"
-msgstr ""
+msgstr "Titolo"
 
 #: data/_apps/ProjectDashboard/CreateNewMilestoneViewTemplate.txt
 msgid "Topic name"
-msgstr ""
+msgstr "Nome dell'argomento"
 
 #: data/_apps/ProjectDashboard/CreateNewMilestoneViewTemplate.txt
 msgid "Use a topic name in %SYSTEMWEB%.WikiNotation"
@@ -562,41 +564,41 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "closed"
-msgstr ""
+msgstr "chiuso"
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "closed milestones"
-msgstr ""
+msgstr "Milestones completate"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 msgid "closed tasks"
-msgstr ""
+msgstr "Tasks chiusi"
 
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "context"
-msgstr ""
+msgstr "contesto"
 
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "created"
-msgstr ""
+msgstr "creato"
 
 #: data/_apps/ProjectDashboard/MilestoneForm.txt
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "discarded"
-msgstr ""
+msgstr "rifiutato"
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "discarded milestones"
-msgstr ""
+msgstr "Milistones rifiutate"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 msgid "discarded tasks"
-msgstr ""
+msgstr "Tasks rifiutati"
 
 #: data/_apps/ProjectDashboard/ProjectForm.txt
 msgid "done"
-msgstr ""
+msgstr "Completato"
 
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "due"
@@ -607,12 +609,12 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "open"
-msgstr ""
+msgstr "aperto"
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "open milestones"
-msgstr ""
+msgstr "milestones aperte"
 
 #: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
 msgid "open tasks"
-msgstr ""
+msgstr "argomenti aperti"
