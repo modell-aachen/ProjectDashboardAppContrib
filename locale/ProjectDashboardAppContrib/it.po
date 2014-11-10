@@ -1,3 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-10 15:45+0200\n"
+"PO-Revision-Date: 2014-11-10 15:45+0200\n"
+"Last-Translator: Modell Aachen <access@modell-aachen.de>\n"
+"Language-Team: Italian <http://translate.modell-"
+"aachen.de/projects/projectdashboardappcontrib/releasenew-york/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.9\n"
+
 #: data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt
 msgid "%1 edited the topic %2."
 msgstr ""
@@ -45,7 +61,7 @@ msgstr "Richiedere firme per stage 5"
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone002.txt
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone003.txt
 msgid "Attach forms, do a lot of stuff..."
-msgstr "Allegare modulo, fare  una serie di attività"
+msgstr "Allegare modulo, fare  una serie di attività..."
 
 #: data/_apps/ProjectDashboard/WidgetAttachments.txt
 msgid "Attachments"
@@ -269,7 +285,7 @@ msgstr "Schema dei dati"
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone002.txt
 #: data/_apps/ProjectDashboard/ProjectTemplate/WebMilestone003.txt
 msgid "Please describe the Milestone!"
-msgstr "Descrivere milestone"
+msgstr "Descrivere milestone!"
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -295,59 +311,59 @@ msgstr "Fine progetto"
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is a draft."
-msgstr "Il progetto è una bozza"
+msgstr "Il progetto è una bozza."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is closed."
-msgstr "Il progetto è chiuso"
+msgstr "Il progetto è chiuso."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 1."
-msgstr "Il progetto è allo stage 1"
+msgstr "Il progetto è allo stage 1."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 2."
-msgstr "Il progetto è allo stage 2"
+msgstr "Il progetto è allo stage 2."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 3."
-msgstr "Il progetto è allo stage 3"
+msgstr "Il progetto è allo stage 3."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 4."
-msgstr "Il progetto è allo stage 4"
+msgstr "Il progetto è allo stage 4."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is in stage 5."
-msgstr "Il progetto è allo stage 5"
+msgstr "Il progetto è allo stage 5."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is killed."
-msgstr "Il progetto è stato soppresso"
+msgstr "Il progetto è stato soppresso."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is not yet in CIP."
-msgstr "Il progetto non è ancora nel CIP"
+msgstr "Il progetto non è ancora nel CIP."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 1."
-msgstr "Il progetto è in attesa di approvazione allo stage 1"
+msgstr "Il progetto è in attesa di approvazione allo stage 1."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 2."
-msgstr "Il progetto è in attesa di approvazione allo stage 2"
+msgstr "Il progetto è in attesa di approvazione allo stage 2."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 3."
-msgstr "Il progetto è in attesa di approvazione allo stage 3"
+msgstr "Il progetto è in attesa di approvazione allo stage 3."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 4."
-msgstr "Il progetto è in attesa di approvazione allo stage 4"
+msgstr "Il progetto è in attesa di approvazione allo stage 4."
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Project is waiting for approval for stage 5."
-msgstr "Il progetto è in attesa di approvazione allo stage 5"
+msgstr "Il progetto è in attesa di approvazione allo stage 5."
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -380,7 +396,7 @@ msgstr "Project Team"
 
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Project workflow"
-msgstr "Project workflow"
+msgstr ""
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -536,7 +552,7 @@ msgstr ""
 msgid "This is an automatically generated message. Please do not reply to this email."
 msgstr ""
 "Questo è un messaggio generato automaticamente. Non rispondere a questa "
-"email"
+"email."
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
