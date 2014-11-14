@@ -94,6 +94,10 @@ msgstr "Dieses Projekt schließen"
 msgid "Closed on"
 msgstr ""
 
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Closed tasks"
+msgstr ""
+
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Context"
 msgstr ""
@@ -149,6 +153,10 @@ msgstr "Beschreibung"
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Details"
+msgstr ""
+
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Discarded tasks"
 msgstr ""
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
@@ -274,6 +282,10 @@ msgstr "Nicht OK (rot)"
 msgid "OK (green)"
 msgstr "OK (grün)"
 
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Open tasks"
+msgstr ""
+
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 #: data/_apps/ProjectDashboard/WidgetData.txt
@@ -299,9 +311,6 @@ msgstr "Produktionsmanager"
 #: data/_apps/ProjectDashboard/WebHome.txt
 msgid "Project"
 msgstr "Projekt"
-
-msgid "Projects"
-msgstr "Projekte"
 
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
 msgid "Project approval process"
@@ -588,10 +597,6 @@ msgstr "geschlossen"
 msgid "closed milestones"
 msgstr "Geschlossene Meilensteine"
 
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "closed tasks"
-msgstr "geschlossene Aufgaben"
-
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "context"
 msgstr "Kontext"
@@ -609,10 +614,6 @@ msgstr "verworfen"
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "discarded milestones"
 msgstr "Verworfene Meilensteine"
-
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "discarded tasks"
-msgstr "verworfene Aufgaben"
 
 #: data/_apps/ProjectDashboard/ProjectForm.txt
 msgid "done"
@@ -633,9 +634,8 @@ msgstr "offen"
 msgid "open milestones"
 msgstr "Offen Meilensteine"
 
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "open tasks"
-msgstr "offene Aufgaben"
+#~ msgid "Projects"
+#~ msgstr "Projekte"
 
 #~ msgid "Research manager"
 #~ msgstr "Forschungsmanager"
@@ -645,3 +645,12 @@ msgstr "offene Aufgaben"
 
 #~ msgid "Type"
 #~ msgstr "Typ"
+
+#~ msgid "closed tasks"
+#~ msgstr "geschlossene Aufgaben"
+
+#~ msgid "discarded tasks"
+#~ msgstr "verworfene Aufgaben"
+
+#~ msgid "open tasks"
+#~ msgstr "offene Aufgaben"

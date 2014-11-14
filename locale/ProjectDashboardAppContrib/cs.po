@@ -77,6 +77,10 @@ msgstr ""
 msgid "Closed on"
 msgstr ""
 
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Closed tasks"
+msgstr ""
+
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Context"
 msgstr ""
@@ -132,6 +136,10 @@ msgstr ""
 #: data/_apps/ProjectDashboard/ProjectsSkinCommentPluginTemplate.txt
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Details"
+msgstr ""
+
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Discarded tasks"
 msgstr ""
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
@@ -255,6 +263,10 @@ msgstr ""
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "OK (green)"
+msgstr ""
+
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Open tasks"
 msgstr ""
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
@@ -568,10 +580,6 @@ msgstr ""
 msgid "closed milestones"
 msgstr ""
 
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "closed tasks"
-msgstr ""
-
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "context"
 msgstr ""
@@ -588,10 +596,6 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "discarded milestones"
-msgstr ""
-
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "discarded tasks"
 msgstr ""
 
 #: data/_apps/ProjectDashboard/ProjectForm.txt
@@ -611,8 +615,4 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "open milestones"
-msgstr ""
-
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "open tasks"
 msgstr ""

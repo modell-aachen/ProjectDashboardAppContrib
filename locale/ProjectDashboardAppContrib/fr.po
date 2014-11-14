@@ -2,11 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-05 14:21+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2014-09-05 14:24+0200\n"
 "Last-Translator: Modell Aachen <access@modell-aachen.de>\n"
-"Language-Team: French <http://translate.modell-"
-"aachen.de/projects/projectdashboardappcontrib/releasenew-york/fr/>\n"
+"Language-Team: French <http://translate.modell-aachen.de/projects/projectdashboardappcontrib/releasenew-york/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,6 +92,10 @@ msgstr "Fermer le projet"
 msgid "Closed on"
 msgstr "Fermer"
 
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Closed tasks"
+msgstr ""
+
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Context"
 msgstr "Contexte"
@@ -149,6 +152,10 @@ msgstr "Description"
 #: data/_apps/ProjectDashboard/WebPreferences.txt
 msgid "Details"
 msgstr "Détails"
+
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Discarded tasks"
+msgstr ""
 
 #: data/System/ProjectDashboardAppContribCommonWords.txt
 msgid "Discussion"
@@ -272,6 +279,10 @@ msgstr "Non OK (rouge)"
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "OK (green)"
 msgstr "OK (vert)"
+
+#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
+msgid "Open tasks"
+msgstr ""
 
 #: data/_apps/ProjectDashboard/ProjectEditTemplate.txt
 #: data/_apps/ProjectDashboard/ProjectViewTemplate.txt
@@ -550,9 +561,7 @@ msgstr ""
 
 #: data/_apps/ProjectDashboard/CustomSkinWorkflowMailTemplate.txt
 msgid "This is an automatically generated message. Please do not reply to this email."
-msgstr ""
-"c'est un message généré automatiquement. S'il vous plaît ne pas répondre à "
-"cet E-mail."
+msgstr "c'est un message généré automatiquement. S'il vous plaît ne pas répondre à cet E-mail."
 
 #: data/_apps/ProjectDashboard/StageEditTemplate.txt
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
@@ -586,10 +595,6 @@ msgstr "Fermé"
 msgid "closed milestones"
 msgstr "Etapes fermées"
 
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "closed tasks"
-msgstr "Tâches fermées"
-
 #: data/_apps/ProjectDashboard/WidgetActions.txt
 msgid "context"
 msgstr "Contexte"
@@ -607,10 +612,6 @@ msgstr "Ecaté"
 #: data/_apps/ProjectDashboard/StageViewTemplate.txt
 msgid "discarded milestones"
 msgstr "Etapes écartées"
-
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "discarded tasks"
-msgstr "Tâches écartées"
 
 #: data/_apps/ProjectDashboard/ProjectForm.txt
 msgid "done"
@@ -631,6 +632,11 @@ msgstr "Ouvert"
 msgid "open milestones"
 msgstr "Etapes ouvertes"
 
-#: data/_apps/ProjectDashboard/MilestoneViewTemplate.txt
-msgid "open tasks"
-msgstr "Tâches ouvertes"
+#~ msgid "closed tasks"
+#~ msgstr "Tâches fermées"
+
+#~ msgid "discarded tasks"
+#~ msgstr "Tâches écartées"
+
+#~ msgid "open tasks"
+#~ msgstr "Tâches ouvertes"
