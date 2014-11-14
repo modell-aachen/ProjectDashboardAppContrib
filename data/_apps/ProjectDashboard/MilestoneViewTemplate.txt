@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1397056244" format="1.1" reprev="2" version="2"}%
+%META:TOPICINFO{author="BaseUserMapping_333" comment="save topic" date="1415955542" format="1.1" reprev="2" version="2"}%
 %TMPL:INCLUDE{view}%
 %TMPL:DEF{"contentheaderstylewrapper"}%
 <div class="foswikiContentHeader"></div>
@@ -30,13 +30,13 @@
 %TMPL:P{"newaction"}%
 <p>
 %TABPANE{select="%URLPARAM{"tab"}%" class="simple"}%
-%TAB{"%MAKETEXT{"open tasks"}%"}%
+%TAB{"%MAKETEXT{"Open tasks"}%"}%
 <div id="SignalOpenTasks">%ACTIONSEARCH{web="%WEB%" sort="$due" topic="WebTasks" context="%WEB%.%TOPIC%" state="open" sort="$createdate,$who,$due" jqsortable="1" jqsortopts="widgets: ['zebra'], sortList: [[0,1],[0,1]], headers: { 0: { sorter: 'qwikiDate' }, 5: { sorter: 'qwikiDate' }, 6: { sorter: 'qwikiDate' }, 7: { sorter: false }, 8: { sorter: false }, 9: { sorter: false }}"}%</div>
 %ENDTAB%
-%TAB{"%MAKETEXT{"closed tasks"}%"}%
+%TAB{"%MAKETEXT{"Closed tasks"}%"}%
 <div id="SignalClosedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebTasks" context="%WEB%.%TOPIC%" state="closed" sort="$createdate,$who,$due"}%</div>
 %ENDTAB%
-%TAB{"%MAKETEXT{"discarded tasks"}%"}%
+%TAB{"%MAKETEXT{"Discarded tasks"}%"}%
 <div id="SignalDiscardedTasks">%ACTIONSEARCH{web="%WEB%"  topic="WebTasks" context="%WEB%.%TOPIC%" state="discarded" sort="$createdate,$who,$due"}%</div>
 %ENDTAB%
 %AMPEL{"SignalOpenTasks" WARN="7" DATE="%MAKETEXT{"Due"}%" DST="%MAKETEXT{"Signal"}%" DONE="%MAKETEXT{"State"}%" COND="closed"}%
